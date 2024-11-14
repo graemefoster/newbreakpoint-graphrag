@@ -1,0 +1,238 @@
+{
+  "Entities": [
+    {
+      "Reason": "Leonardo Da Vinci is the main subject of the text.",
+      "Type": "PERSON",
+      "Name": "Leonardo Da Vinci"
+    },
+    {
+      "Reason": "Leonardo Da Vinci was born in the little town of Vinci.",
+      "Type": "LOCATION",
+      "Name": "Vinci"
+    },
+    {
+      "Reason": "Vinci is six miles from Empoli.",
+      "Type": "LOCATION",
+      "Name": "Empoli"
+    },
+    {
+      "Reason": "Vinci is twenty miles west of Florence.",
+      "Type": "LOCATION",
+      "Name": "Florence"
+    },
+    {
+      "Reason": "Leonardo Da Vinci was the son of Ser Piero.",
+      "Type": "PERSON",
+      "Name": "Ser Piero"
+    },
+    {
+      "Reason": "Leonardo Da Vinci's mother was named Caterina.",
+      "Type": "PERSON",
+      "Name": "Caterina"
+    },
+    {
+      "Reason": "Caterina, Leonardo’s mother, married Accabriga di Piero del Vaccha.",
+      "Type": "PERSON",
+      "Name": "Accabriga di Piero del Vaccha"
+    },
+    {
+      "Reason": "The text includes a mention of a painting titled 'Annunciation.'",
+      "Type": "ARTWORK",
+      "Name": "Annunciation"
+    },
+    {
+      "Reason": "Annunciation is included in the Uffizi Gallery's catalogue.",
+      "Type": "INSTITUTION",
+      "Name": "Uffizi Gallery"
+    },
+    {
+      "Reason": "The painting 'Annunciation' is probably by Leonardo's master Verrocchio.",
+      "Type": "PERSON",
+      "Name": "Verrocchio"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo Da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Vinci"
+      },
+      "Relationship": "BORN_IN",
+      "Reason": "Leonardo Da Vinci was born at the little town of Vinci."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ser Piero"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo Da Vinci"
+      },
+      "Relationship": "PARENTS_OF",
+      "Reason": "Leonardo Da Vinci was the son of Ser Piero."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Caterina"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo Da Vinci"
+      },
+      "Relationship": "PARENTS_OF",
+      "Reason": "Leonardo Da Vinci's mother was one Caterina."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Caterina"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Accabriga di Piero del Vaccha"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "Caterina married Accabriga di Piero del Vaccha."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Verrocchio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "The painting 'Annunciation' is probably by his master, Verrocchio."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Uffizi Gallery"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "Relationship": "OWNED",
+      "Reason": "Annunciation is included in the Uffizi Gallery's catalogue."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo Da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Vinci"
+      },
+      "Relationship": "BORN_IN",
+      "Reason": "Leonardo Da Vinci...was born, as his name implies, at the little town of Vinci..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ser Piero"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo Da Vinci"
+      },
+      "Relationship": "PARENTS_OF",
+      "Reason": "was the natural and first-born son of Ser Piero, a country notary..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Caterina"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo Da Vinci"
+      },
+      "Relationship": "PARENTS_OF",
+      "Reason": "Leonardo's mother was one Caterina..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Caterina"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Accabriga di Piero del Vaccha"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "who afterwards married Accabriga di Piero del Vaccha of Vinci."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Verrocchio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "this panel is included in the Uffizi Catalogue as being by Leonardo, it is in all probability by his master, Verrocchio."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Uffizi Gallery"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "Relationship": "OWNED",
+      "Reason": "In the Uffizi Gallery, Florence."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Antonio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo Da Vinci"
+      },
+      "Relationship": "PARENTS_OF",
+      "Reason": "His age is given as five in a taxation return made in 1457 by his grandfather Antonio, in whose house he was educated..."
+    }
+  ]
+}

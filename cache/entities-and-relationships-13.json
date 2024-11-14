@@ -1,0 +1,314 @@
+{
+  "Entities": [
+    {
+      "Reason": "The text mentions that Marco d'Oggiono created a copy of the 'Last Supper'.",
+      "Type": "PERSON",
+      "Name": "Marco d'Oggiono"
+    },
+    {
+      "Reason": "The text refers to this artwork, especially in relation to its copies and studies.",
+      "Type": "ARTWORK",
+      "Name": "The Last Supper"
+    },
+    {
+      "Reason": "The 'Head of Christ' is located in the Brera Gallery.",
+      "Type": "LOCATION",
+      "Name": "Brera Gallery"
+    },
+    {
+      "Reason": "The Brera Gallery is located in Milan.",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "The text mentions 'Head of Christ' as an original study related to 'The Last Supper'.",
+      "Type": "ARTWORK",
+      "Name": "Head of Christ"
+    },
+    {
+      "Reason": "The copy of 'The Last Supper' by Marco d'Oggiono is now located there.",
+      "Type": "LOCATION",
+      "Name": "Diploma Gallery at Burlington House"
+    },
+    {
+      "Reason": "The Royal Academy purchased the copy of 'The Last Supper' on the advice of Sir Thomas Lawrence.",
+      "Type": "INSTITUTION",
+      "Name": "Royal Academy"
+    },
+    {
+      "Reason": "Sir Thomas Lawrence advised the Royal Academy to purchase the copy of 'The Last Supper'.",
+      "Type": "PERSON",
+      "Name": "Sir Thomas Lawrence"
+    },
+    {
+      "Reason": "The text mentions that some of the original studies for the heads of the Apostles are in red and black chalk.",
+      "Type": "ARTISTIC_TECHNIQUE",
+      "Name": "red and black chalk"
+    },
+    {
+      "Reason": "Some original studies by Leonardo are preserved in the Royal Library at Windsor.",
+      "Type": "LOCATION",
+      "Name": "Royal Library at Windsor"
+    },
+    {
+      "Reason": "The text mentions that several old copies of 'The Last Supper' exist, notably one in the Louvre.",
+      "Type": "LOCATION",
+      "Name": "Louvre"
+    },
+    {
+      "Reason": "Francis I wished to remove the whole wall of the Refectory to Paris, where a copy was made for the Chapel of the Château d'Ecouen and eventually passed to the Louvre.",
+      "Type": "PERSON",
+      "Name": "Francis I"
+    },
+    {
+      "Reason": "Constable de Montmorency had a copy of 'The Last Supper' made for the Chapel of the Château d'Ecouen.",
+      "Type": "PERSON",
+      "Name": "Constable de Montmorency"
+    },
+    {
+      "Reason": "A copy of 'The Last Supper' was made for the Chapel of the Château d'Ecouen before it passed to the Louvre.",
+      "Type": "LOCATION",
+      "Name": "Château d'Ecouen"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Marco d'Oggiono"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "The copy of the 'Last Supper' by Marco d'Oggiono."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Head of Christ"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "The 'Head of Christ' is the original study for the head of the principal figure in the fresco painting of the 'Last Supper'."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Brera Gallery"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "'Head of Christ' is located in Brera Gallery, Milan."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Diploma Gallery at Burlington House"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "The copy is now in the Diploma Gallery at Burlington House."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Sir Thomas Lawrence"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Royal Academy"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Sir Thomas Lawrence advised the Royal Academy to purchase the copy."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTISTIC_TECHNIQUE",
+        "Name": "red and black chalk"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Royal Library at Windsor"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Some original studies in red and black chalk are preserved in the Royal Library at Windsor."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francis I"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Louvre"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Francis I wished to remove the whole wall of the Refectory to Paris."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Constable de Montmorency"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Château d'Ecouen"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Constable de Montmorency had a copy made for the Chapel of the Château d'Ecouen."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Marco d'Oggiono"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "The copy of the 'Last Supper' (Plate V.) by Marco d'Oggiono"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Head of Christ"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "The singularly beautiful 'Head of Christ'...is the original study for the head of the principal figure in the fresco painting of the 'Last Supper.'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Brera Gallery"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "In the Brera Gallery, Milan."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Diploma Gallery at Burlington House"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "The copy of the 'Last Supper'...now in the Diploma Gallery at Burlington House"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Sir Thomas Lawrence"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Royal Academy"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Purchased for £600 by the Royal Academy on the advice of Sir Thomas Lawrence"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTISTIC_TECHNIQUE",
+        "Name": "red and black chalk"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Royal Library at Windsor"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "some of these in red and black chalk are now preserved in the Royal Library at Windsor"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francis I"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Louvre"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Francis I. wished to remove the whole wall of the Refectory to Paris"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Constable de Montmorency"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Château d'Ecouen"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "the Constable de Montmorency then had a copy made for the Chapel of the Château d'Ecouen"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Sir Thomas Lawrence"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "OWNED",
+      "Reason": "on the advice of Sir Thomas Lawrence, who left no stone unturned to acquire also the original studies for the heads of the Apostles."
+    }
+  ]
+}

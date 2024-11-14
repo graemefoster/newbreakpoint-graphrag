@@ -1,0 +1,273 @@
+{
+  "Entities": [
+    {
+      "Reason": "the text discusses the background of the Mona Lisa",
+      "Type": "ARTWORK",
+      "Name": "Mona Lisa"
+    },
+    {
+      "Reason": "mention of the landscape in the neighbourhood of his birthplace",
+      "Type": "LOCATION",
+      "Name": "neighbourhood of his own birthplace"
+    },
+    {
+      "Reason": "the text mentions the portrait was bought during the reign of Francis I",
+      "Type": "PERSON",
+      "Name": "Francis I"
+    },
+    {
+      "Reason": "many actions and relationships described involve Leonardo",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "mentioned along with Raphael as someone who never married",
+      "Type": "PERSON",
+      "Name": "Michelangelo"
+    },
+    {
+      "Reason": "mentioned along with Michelangelo as someone who never married",
+      "Type": "PERSON",
+      "Name": "Raphael"
+    },
+    {
+      "Reason": "Leonardo was commissioned to decorate a wall in the Palazzo Vecchio",
+      "Type": "LOCATION",
+      "Name": "Palazzo Vecchio"
+    },
+    {
+      "Reason": "subject Leonardo selected to decorate the Council Hall",
+      "Type": "ARTWORK",
+      "Name": "Battle of Anghiari"
+    },
+    {
+      "Reason": "ppart of the 'Battle of Anghiari' composition",
+      "Type": "ARTWORK",
+      "Name": "Battle of the Standard"
+    },
+    {
+      "Reason": "a supposed copy of a study of the mural painting hangs here",
+      "Type": "INSTITUTION",
+      "Name": "Victoria and Albert Museum"
+    },
+    {
+      "Reason": "mentioned as leading the Florentines in the 'Battle of Anghiari'",
+      "Type": "PERSON",
+      "Name": "Ludovico Mezzarota Scarampo"
+    },
+    {
+      "Reason": "mentioned as leading the Milanese in the 'Battle of Anghiari'",
+      "Type": "PERSON",
+      "Name": "Niccolò Piccinino"
+    },
+    {
+      "Reason": "general of Filippo Maria Visconti",
+      "Type": "PERSON",
+      "Name": "Filippo Maria Visconti"
+    },
+    {
+      "Reason": "date of the Battle of Anghiari",
+      "Type": "HISTORICAL_EVENT",
+      "Name": "June 29, 1440"
+    },
+    {
+      "Reason": "Leonardo was back in Milan in May 1506",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "Leonardo was in the service of the French King in Milan",
+      "Type": "PERSON",
+      "Name": "French King"
+    },
+    {
+      "Reason": "artwork executed by Leonardo",
+      "Type": "ARTWORK",
+      "Name": "Madonna, the Infant Christ, and Saint Anne"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Mona Lisa"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "the text discusses the background of the Mona Lisa"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Battle of Anghiari"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Palazzo Vecchio"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo was commissioned to decorate one of the walls of the Palazzo Vecchio with 'Battle of Anghiari'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francis I"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Mona Lisa"
+      },
+      "Relationship": "OWNED",
+      "Reason": "the portrait was bought during the reign of Francis I"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Battle of the Standard"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo executed only the incident in the foreground dealing with 'Battle of the Standard'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Leonardo was back in Milan in May 1506"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Madonna, the Infant Christ, and Saint Anne"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo executed 'the Madonna, the Infant Christ, and Saint Anne'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico Mezzarota Scarampo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "HISTORICAL_EVENT",
+        "Name": "June 29, 1440"
+      },
+      "Relationship": "BORN_IN",
+      "Reason": "Florentines under Cardinal Ludovico Mezzarota Scarampo fighting against Milanese under Niccolò Piccinino on June 29, 1440"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Mona Lisa"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "neighbourhood of his own birthplace"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "The landscape background, against which Mona Lisa is posed, recalls the severe, rather than exuberant, landscape and the dim vistas of mountain ranges seen in the neighbourhood of his own birthplace."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Michelangelo"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Leonardo was one of the members of the Committee of Artists summoned to advise the Signoria as to the most suitable site for the erection of Michelangelo's statue of 'David,' which had recently been completed."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Palazzo Vecchio"
+      },
+      "Relationship": "VISITED",
+      "Reason": "In the following May he was commissioned by the Signoria to decorate one of the walls of the Council Hall of the Palazzo Vecchio."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Battle of Anghiari"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Battle of the Standard"
+      },
+      "Relationship": "INCLUDES",
+      "Reason": "Although he completed the cartoon, the only part of the composition which he eventually executed in colour was an incident in the foreground which dealt with the 'Battle of the Standard.'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico Mezzarota Scarampo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Niccolò Piccinino"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "It depicts the Florentines under Cardinal Ludovico Mezzarota Scarampo fighting against the Milanese under Niccolò Piccinino."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francis I"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Leonardo was back in Milan in May 1506 in the service of the French King."
+    }
+  ]
+}

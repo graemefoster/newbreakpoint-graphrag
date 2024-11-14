@@ -1,0 +1,177 @@
+{
+  "Entities": [
+    {
+      "Reason": "The text elaborates on Leonardo's characteristics, art techniques, sketches, and scientific anticipations.",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "The text mentions Leonardo's use of chiaroscuro in his painting techniques.",
+      "Type": "ARTISTIC_TECHNIQUE",
+      "Name": "chiaroscuro"
+    },
+    {
+      "Reason": "The text mentions that three of Leonardo's note-books with sketches are preserved in the Forster collection at the Victoria and Albert museum.",
+      "Type": "INSTITUTION",
+      "Name": "Victoria and Albert museum"
+    },
+    {
+      "Reason": "The text presents statements attributed to Benvenuto Cellini regarding Leonardo's knowledge.",
+      "Type": "PERSON",
+      "Name": "Benvenuto Cellini"
+    },
+    {
+      "Reason": "Francis I is mentioned as having a high opinion of Leonardo's knowledge.",
+      "Type": "PERSON",
+      "Name": "Francis I"
+    },
+    {
+      "Reason": "Cellini mentions Michelangelo as part of the 'Book of the World' along with Leonardo.",
+      "Type": "PERSON",
+      "Name": "Michelangelo"
+    },
+    {
+      "Reason": "Cellini mentions Raphael as part of the 'Book of the World' along with Leonardo.",
+      "Type": "PERSON",
+      "Name": "Raphael"
+    },
+    {
+      "Reason": "Leonardo is noted to have anticipated Copernicus' theory of the earth's movement.",
+      "Type": "PERSON",
+      "Name": "Copernicus"
+    },
+    {
+      "Reason": "Leonardo is noted to have anticipated Lamarck's classification of vertebrate and invertebrate animals.",
+      "Type": "PERSON",
+      "Name": "Lamarck"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francis I"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Francis I. 'did not believe that any other man had come into the world who had attained so great a knowledge as Leonardo"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Benvenuto Cellini"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Benvenuto Cellini made statements regarding Leonardo's knowledge and contended that Leonardo is part of the 'Book of the World'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Benvenuto Cellini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Michelangelo"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Cellini also who contended that 'Leonardo da Vinci, Michelangelo, and Raphael are the Book of the World.'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Benvenuto Cellini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Raphael"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Cellini also who contended that 'Leonardo da Vinci, Michelangelo, and Raphael are the Book of the World.'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francis I"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Francis I. \"did not believe that any other man had come into the world who had attained so great a knowledge as Leonardo\""
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Benvenuto Cellini"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "We can readily believe the statements of Benvenuto Cellini"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Benvenuto Cellini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Michelangelo"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "It was Cellini also who contended that \"Leonardo da Vinci, Michelangelo, and Raphael are the Book of the World.\""
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Benvenuto Cellini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Raphael"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "It was Cellini also who contended that \"Leonardo da Vinci, Michelangelo, and Raphael are the Book of the World.\""
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Victoria and Albert museum"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "In the Forster collection in the Victoria and Albert museum three of Leonardo's note-books with sketches are preserved"
+    }
+  ]
+}

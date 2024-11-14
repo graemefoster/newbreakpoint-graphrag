@@ -1,0 +1,173 @@
+{
+  "Entities": [
+    {
+      "Reason": "Leonardo is the artist mentioned multiple times in the story responsible for the restoration and painting.",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "Ludovico is mentioned as the person whose devices have been preserved.",
+      "Type": "PERSON",
+      "Name": "Ludovico"
+    },
+    {
+      "Reason": "Jesus is central to the scene being depicted by Leonardo during the moment he said 'One of you shall betray me.'",
+      "Type": "PERSON",
+      "Name": "Jesus"
+    },
+    {
+      "Reason": "St. John is described as being overcome with grief and is part of the scene.",
+      "Type": "PERSON",
+      "Name": "St. John"
+    },
+    {
+      "Reason": "Peter is mentioned as being impetuous and near St. John and Judas Iscariot.",
+      "Type": "PERSON",
+      "Name": "Peter"
+    },
+    {
+      "Reason": "Judas Iscariot is identified as the traitor in the scene and is associated with a money-bag and the salt-cellar.",
+      "Type": "PERSON",
+      "Name": "Judas Iscariot"
+    },
+    {
+      "Reason": "Ludovico Sforza is the Duke of Milan who was complained to about the delay in painting.",
+      "Type": "PERSON",
+      "Name": "Ludovico Sforza"
+    },
+    {
+      "Reason": "The Prior of the Convent complained about Leonardo's delay in painting the fresco.",
+      "Type": "PERSON",
+      "Name": "Prior of the Convent"
+    },
+    {
+      "Reason": "Padre Bandelli's complaint about Leonardo is mentioned in a poetic retelling.",
+      "Type": "PERSON",
+      "Name": "Padre Bandelli"
+    },
+    {
+      "Reason": "The Convent is where the fresco Leonardo was working on is located.",
+      "Type": "LOCATION",
+      "Name": "Convent"
+    },
+    {
+      "Reason": "The fresco involving Jesus and his apostles during the moment of betrayal.",
+      "Type": "ARTWORK",
+      "Name": "The Last Supper"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo had his revenge by threatening to paint the features of the impatient Prior into the face of Judas Iscariot."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Judas Iscariot"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "OBJECT",
+        "Name": "money-bag"
+      },
+      "Relationship": "OWNED",
+      "Reason": "Judas Iscariot...instinctively clasps the money-bag."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Jesus"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Judas Iscariot"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Jesus said 'One of you shall betray me' which influences Judas Iscariot's reaction."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo|The Last Supper|PAINTED)"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Judas Iscariot"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "OBJECT",
+        "Name": "money-bag"
+      },
+      "Relationship": "OWNED",
+      "Reason": "Judas Iscariot who, while affecting the calm of innocence, is quite unable to conceal his inner feelings; he instinctively clasps the money-bag"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Jesus"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Judas Iscariot"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "at the moment when Jesus said 'One of you shall betray me.'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "John"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Convent"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "the Prior of the Convent complained to Ludovico Sforza, Duke of Milan, that Leonardo was taking too long to paint the fresco"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Sforza"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Convent"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "the Prior of the Convent complained to Ludovico Sforza"
+    }
+  ]
+}

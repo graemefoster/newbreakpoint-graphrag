@@ -1,0 +1,271 @@
+{
+  "Entities": [
+    {
+      "Reason": "He is mentioned as an artist with multiple works attributed to him.",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "He is mentioned as the master of Leonardo and associated with his studio.",
+      "Type": "PERSON",
+      "Name": "Verrocchio"
+    },
+    {
+      "Reason": "The Louvre authorities initially attributed a painting to him.",
+      "Type": "PERSON",
+      "Name": "Lorenzo di Credi"
+    },
+    {
+      "Reason": "He is suggested as the possible artist of a painting attributed to Leonardo.",
+      "Type": "PERSON",
+      "Name": "Andrea del Verrocchio"
+    },
+    {
+      "Reason": "He was commissioned to paint an altar-piece but failed to complete the task.",
+      "Type": "PERSON",
+      "Name": "Domenico Ghirlandajo"
+    },
+    {
+      "Reason": "He ultimately completed the commissioned altar-piece.",
+      "Type": "PERSON",
+      "Name": "Filippino Lippi"
+    },
+    {
+      "Reason": "It is mentioned as the location of multiple artworks.",
+      "Type": "LOCATION",
+      "Name": "Uffizi Gallery"
+    },
+    {
+      "Reason": "The Louvre authorities are mentioned in relation to a painting's attribution.",
+      "Type": "LOCATION",
+      "Name": "Louvre"
+    },
+    {
+      "Reason": "Two paintings titled 'Annunciation' are attributed to Leonardo.",
+      "Type": "ARTWORK",
+      "Name": "Annunciation"
+    },
+    {
+      "Reason": "It is described as Leonardo's earliest dated work.",
+      "Type": "ARTWORK",
+      "Name": "A Wide View over a Plain"
+    },
+    {
+      "Reason": "It was an altar-piece completed by Filippino Lippi.",
+      "Type": "ARTWORK",
+      "Name": "Madonna Enthroned, St. Victor, St. John Baptist, St. Bernard, and St. Zenobius"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Another painting of the 'Annunciation,' which is now in the Uffizi Gallery (No. 1288) is still officially attributed to Leonardo."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "A Wide View over a Plain"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "To January 1473 belongs Leonardo's earliest dated work, a pen-and-ink drawing--'A Wide View over a Plain,' now in the Uffizi."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Verrocchio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "TEACHER",
+      "Reason": "Andrea del Verrocchio, Leonardo's master"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Uffizi Gallery"
+      },
+      "Relationship": "LOCATED_AT",
+      "Reason": "Another painting of the 'Annunciation,' which is now in the Uffizi Gallery (No. 1288)"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "A Wide View over a Plain"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Uffizi Gallery"
+      },
+      "Relationship": "LOCATED_AT",
+      "Reason": "Leonardo's earliest dated work, a pen-and-ink drawing--'A Wide View over a Plain,' now in the Uffizi."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Madonna Enthroned, St. Victor, St. John Baptist, St. Bernard, and St. Zenobius"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Uffizi Gallery"
+      },
+      "Relationship": "LOCATED_AT",
+      "Reason": "'Madonna Enthroned, St. Victor, St. John Baptist, St. Bernard, and St. Zenobius,' which is dated February 20, 1485, is now in the Uffizi."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Another painting of the 'Annunciation,' which is now in the Uffizi Gallery (No. 1288) is still officially attributed to Leonardo."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "A Wide View over a Plain"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "To January 1473 belongs Leonardo's earliest dated work, a pen-and-ink drawing--'A Wide View over a Plain,' now in the Uffizi."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Verrocchio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "TEACHER",
+      "Reason": "This small picture, which has been considerably repainted, and is perhaps by Andrea del Verrocchio, Leonardo's master."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Uffizi Gallery"
+      },
+      "Relationship": "LOCATED_AT",
+      "Reason": "Another painting of the 'Annunciation,' which is now in the Uffizi Gallery."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "A Wide View over a Plain"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Uffizi Gallery"
+      },
+      "Relationship": "LOCATED_AT",
+      "Reason": "To January 1473 belongs Leonardo's earliest dated work, a pen-and-ink drawing--'A Wide View over a Plain,' now in the Uffizi."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Madonna Enthroned, St. Victor, St. John Baptist, St. Bernard, and St. Zenobius"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Uffizi Gallery"
+      },
+      "Relationship": "LOCATED_AT",
+      "Reason": "This panel of the 'Madonna Enthroned, St. Victor, St. John Baptist, St. Bernard, and St. Zenobius,' which is dated February 20, 1485, is now in the Uffizi."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Andrea del Verrocchio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "TEACHER",
+      "Reason": "Andrea del Verrocchio, Leonardo's master."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Domenico Ghirlandajo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Filippino Lippi"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Domenico Ghirlandajo, who also failed to accomplish the task, which was ultimately, some seven years later, completed by Filippino Lippi."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Lorenzo di Credi"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "but it was long catalogued by the Louvre authorities under the name of Lorenzo di Credi. It is now, however, attributed to Leonardo"
+    }
+  ]
+}

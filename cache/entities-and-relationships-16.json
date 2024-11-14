@@ -1,0 +1,343 @@
+{
+  "Entities": [
+    {
+      "Reason": "Leonardo drew a portrait in chalk of Isabella d'Este",
+      "Type": "PERSON",
+      "Name": "Isabella d'Este"
+    },
+    {
+      "Reason": "The portrait of Isabella d'Este is now in the Louvre",
+      "Type": "LOCATION",
+      "Name": "Louvre"
+    },
+    {
+      "Reason": "Leonardo eventually arrived in Florence about Easter 1500",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "Leonardo eventually arrived in Florence about Easter 1500",
+      "Type": "LOCATION",
+      "Name": "Florence"
+    },
+    {
+      "Reason": "Leonardo acted as engineer and architect to Cesare Borgia",
+      "Type": "PERSON",
+      "Name": "Cesare Borgia"
+    },
+    {
+      "Reason": "Leonardo travelled in Umbria, visiting Orvieto, Pesaro, Rimini, and other towns",
+      "Type": "LOCATION",
+      "Name": "Umbria"
+    },
+    {
+      "Reason": "Leonardo travelled in Umbria, visiting Orvieto",
+      "Type": "LOCATION",
+      "Name": "Orvieto"
+    },
+    {
+      "Reason": "Leonardo travelled in Umbria, visiting Pesaro",
+      "Type": "LOCATION",
+      "Name": "Pesaro"
+    },
+    {
+      "Reason": "Leonardo travelled in Umbria, visiting Rimini",
+      "Type": "LOCATION",
+      "Name": "Rimini"
+    },
+    {
+      "Reason": "Leonardo planned a navigable canal between Cesena and Porto Cesenatico",
+      "Type": "OBJECT",
+      "Name": "Porto Cesenatico"
+    },
+    {
+      "Reason": "Illustration of the portrait presumed of Lucrezia Crivelli in the Louvre",
+      "Type": "OBJECT",
+      "Name": "PLATE VII.-PORTRAIT (PRESUMED) OF LUCREZIA CRIVELLI"
+    },
+    {
+      "Reason": "A portrait presumed to be of Lucrezia Crivelli in the Louvre",
+      "Type": "PERSON",
+      "Name": "Lucrezia Crivelli"
+    },
+    {
+      "Reason": "Lisa di Anton Maria di Noldo Gherardini was the daughter of Antonio Gherardini",
+      "Type": "PERSON",
+      "Name": "Lisa di Anton Maria di Noldo Gherardini"
+    },
+    {
+      "Reason": "Antonio Gherardini was the father of Lisa di Anton Maria di Noldo Gherardini",
+      "Type": "PERSON",
+      "Name": "Antonio Gherardini"
+    },
+    {
+      "Reason": "Lisa married Francesco di Bartolommeo de Zenobi del Giocondo in 1495",
+      "Type": "PERSON",
+      "Name": "Francesco di Bartolommeo de Zenobi del Giocondo"
+    },
+    {
+      "Reason": "Leonardo started working on the 'Portrait of Mona Lisa' which is now in the Louvre",
+      "Type": "ARTWORK",
+      "Name": "Portrait of Mona Lisa"
+    },
+    {
+      "Reason": "Leonardo worked on the 'Battle of Anghiari'",
+      "Type": "LOCATION",
+      "Name": "Battle of Anghiari"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Isabella d'Este"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo drew a portrait in chalk of Isabella d'Este"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Louvre"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "the Portrait of Mona Lisa is now in the Louvre"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Florence"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Leonardo eventually arrived in Florence about Easter 1500"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cesare Borgia"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Leonardo acted as engineer and architect to Cesare Borgia"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Lisa di Anton Maria di Noldo Gherardini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Antonio Gherardini"
+      },
+      "Relationship": "PARENTS_OF",
+      "Reason": "Lisa di Anton Maria di Noldo Gherardini was the daughter of Antonio Gherardini"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Lisa di Anton Maria di Noldo Gherardini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francesco di Bartolommeo de Zenobi del Giocondo"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "In 1495 she married Francesco di Bartolommeo de Zenobi del Giocondo"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Portrait of Mona Lisa"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo set to work in earnest on the 'Portrait of Mona Lisa'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Isabella d'Este"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "drew a portrait in chalk of Isabella d'Este"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Louvre"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Isabella d'Este, which is now in the Louvre"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Florence"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "He was back again in Florence, and set to work"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cesare Borgia"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "acting as engineer and architect to Cesare Borgia"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Lisa di Anton Maria di Noldo Gherardini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Antonio Gherardini"
+      },
+      "Relationship": "PARENTS_OF",
+      "Reason": "Lisa di Anton Maria di Noldo Gherardini was the daughter of Antonio Gherardini"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Lisa di Anton Maria di Noldo Gherardini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francesco di Bartolommeo de Zenobi del Giocondo"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "In 1495 she married Francesco di Bartolommeo de Zenobi del Giocondo"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Portrait of Mona Lisa"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "set to work in earnest on the \"Portrait of Mona Lisa\""
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Umbria"
+      },
+      "Relationship": "VISITED",
+      "Reason": "he travelled in Umbria"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Orvieto"
+      },
+      "Relationship": "VISITED",
+      "Reason": "visiting Orvieto"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Pesaro"
+      },
+      "Relationship": "VISITED",
+      "Reason": "visiting ... Pesaro"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Rimini"
+      },
+      "Relationship": "VISITED",
+      "Reason": "visiting ... Rimini"
+    }
+  ]
+}

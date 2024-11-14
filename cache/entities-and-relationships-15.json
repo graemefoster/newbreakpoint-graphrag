@@ -1,0 +1,333 @@
+{
+  "Entities": [
+    {
+      "Reason": "creator of 'The Virgin and Child with St. Anne and St. John' and involved in several key events.",
+      "Type": "PERSON",
+      "Name": "Leonardo da Vinci"
+    },
+    {
+      "Reason": "lent a picture painted by Leonardo.",
+      "Type": "PERSON",
+      "Name": "Cecilia"
+    },
+    {
+      "Reason": "an artist compared with Leonardo.",
+      "Type": "PERSON",
+      "Name": "Giovanni Bellini"
+    },
+    {
+      "Reason": "a significant work by Leonardo.",
+      "Type": "ARTWORK",
+      "Name": "The Virgin and Child with St. Anne and St. John"
+    },
+    {
+      "Reason": "central location to the events described.",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "current location of ‘The Virgin and Child with St. Anne and St. John’.",
+      "Type": "LOCATION",
+      "Name": "Burlington House"
+    },
+    {
+      "Reason": "where Leonardo sent six hundred gold florins.",
+      "Type": "LOCATION",
+      "Name": "Florence"
+    },
+    {
+      "Reason": "a location Leonardo visited after leaving Milan.",
+      "Type": "LOCATION",
+      "Name": "Mantua"
+    },
+    {
+      "Reason": "an artwork by Leonardo and referenced in the context of Ludovico's statement.",
+      "Type": "ARTWORK",
+      "Name": "The Last Supper"
+    },
+    {
+      "Reason": "Leonardo sent money there.",
+      "Type": "LOCATION",
+      "Name": "S. Maria Nuova"
+    },
+    {
+      "Reason": "historical figure who gave a vineyard to Leonardo and faced political turmoil.",
+      "Type": "PERSON",
+      "Name": "Ludovico"
+    },
+    {
+      "Reason": "sold Milan to the French.",
+      "Type": "PERSON",
+      "Name": "Bernardino di Corte"
+    },
+    {
+      "Reason": "entered Milan on October 6th.",
+      "Type": "PERSON",
+      "Name": "Louis XII"
+    },
+    {
+      "Reason": "a significant historical event mentioned.",
+      "Type": "HISTORICAL_EVENT",
+      "Name": "French occupation of Milan (1500-1512)"
+    },
+    {
+      "Reason": "a significant event involving Ludovico.",
+      "Type": "HISTORICAL_EVENT",
+      "Name": "Ludovico's defeat at Novara"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin and Child with St. Anne and St. John"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "superb cartoon of 'The Virgin and Child with St. Anne and St. John,' now at Burlington House."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Among the last of Leonardo da Vinci's works in Milan towards the end of 1499."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Florence"
+      },
+      "Relationship": "VISITED",
+      "Reason": "sent six hundred gold florins by letter of exchange to Florence."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Mantua"
+      },
+      "Relationship": "VISITED",
+      "Reason": "He left Milan for Mantua."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "figure of the traitor in the 'Last Supper'."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "In 1499 the stormy times in Milan."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "a portrait of Cecilia"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "lend her the portrait which Leonardo had painted of her some fifteen years earlier"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "a portrait of Cecilia"
+      },
+      "Relationship": "OWNED",
+      "Reason": "Cecilia graciously lent the picture"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Giovanni Bellini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "a picture by Giovanni Bellini"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "she wished to compare it with a picture by Giovanni Bellini"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "lend her the portrait which Leonardo had painted of her some fifteen years earlier"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin and Child with St. Anne and St. John"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Burlington House"
+      },
+      "Relationship": "OWNED",
+      "Reason": "the superb cartoon of 'The Virgin and Child with St. Anne and St. John,' now at Burlington House"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "Relationship": "OWNED",
+      "Reason": "In April of that year we read of his giving a vineyard to Leonardo"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Bernardino di Corte"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "SOLD",
+      "Reason": "the city was sold by Bernardino di Corte to the French"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "HISTORICAL_EVENT",
+        "Name": "Ludovico's defeat at Novara"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "In the following year, Ludovico having been defeated at Novara"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "HISTORICAL_EVENT",
+        "Name": "French occupation of Milan (1500-1512)"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "the French, who occupied it from 1500 to 1512"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Louis XII"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "VISITED",
+      "Reason": "On October 6th Louis XII. entered the city."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "hospital of S. Maria Nuova"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Leonardo, realising the necessity for his speedy departure, sent six hundred gold florins by letter of exchange to Florence to be placed to his credit with the hospital of S. Maria Nuova."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Mantua"
+      },
+      "Relationship": "VISITED",
+      "Reason": "He left Milan for Mantua"
+    }
+  ]
+}

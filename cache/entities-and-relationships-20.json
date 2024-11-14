@@ -1,0 +1,272 @@
+{
+  "Entities": [
+    {
+      "Reason": "Leonardo is referenced multiple times as the central figure, a painter, engineer, and architect.",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "King Francis I. is mentioned as frequently visiting Leonardo and supporting his head near his death.",
+      "Type": "PERSON",
+      "Name": "King Francis I."
+    },
+    {
+      "Reason": "Francesco Melzi is mentioned as Leonardo's friend and assistant who wrote a note lamenting his death.",
+      "Type": "PERSON",
+      "Name": "Francesco Melzi"
+    },
+    {
+      "Reason": "Vasari is mentioned as a source of information about Leonardo's final moments.",
+      "Type": "PERSON",
+      "Name": "Vasari"
+    },
+    {
+      "Reason": "Piero della Francesca is mentioned in relation to preliminary investigations of light and shade.",
+      "Type": "PERSON",
+      "Name": "Piero della Francesca"
+    },
+    {
+      "Reason": "Michelangelo is mentioned in relation to Leonardo as his birth antedates that of Michelangelo.",
+      "Type": "PERSON",
+      "Name": "Michelangelo"
+    },
+    {
+      "Reason": "Raphael is mentioned in relation to Leonardo as his birth antedates that of Raphael.",
+      "Type": "PERSON",
+      "Name": "Raphael"
+    },
+    {
+      "Reason": "Referenced as 'the noble Milanese', Milan is tied to Leonardo's identity and work.",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "As Leonardo is described as the painter, engineer, and architect to the King, the Court of King Francis I. serves as an institution.",
+      "Type": "INSTITUTION",
+      "Name": "Court of King Francis I."
+    },
+    {
+      "Reason": "Leonardo is identified as the former Professor of Painting to the Duke of Milan.",
+      "Type": "INSTITUTION",
+      "Name": "Duke of Milan"
+    },
+    {
+      "Reason": "Leonardo is noted for observing the subtleties of chiaroscuro—light and shade.",
+      "Type": "ARTISTIC_TECHNIQUE",
+      "Name": "Chiaroscuro"
+    },
+    {
+      "Reason": "Leonardo is noted to be in the forefront of the Florentine Renaissance.",
+      "Type": "ART_MOVEMENT",
+      "Name": "Florentine Renaissance"
+    },
+    {
+      "Reason": "Mentioned as the probable location of King Francis I. at the time of Leonardo's death.",
+      "Type": "LOCATION",
+      "Name": "St. Germain-en-Laye"
+    },
+    {
+      "Reason": "Detailed description of Leonardo's death and context provided.",
+      "Type": "HISTORICAL_EVENT",
+      "Name": "Death of Leonardo"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "King Francis I."
+      },
+      "Relationship": "VISITED",
+      "Reason": "King Francis I., who was accustomed frequently and affectionately to visit him"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Leonardo is described as the noble Milanese, painter, engineer, and architect."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Duke of Milan"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "former Professor of Painting to the Duke of Milan"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTISTIC_TECHNIQUE",
+        "Name": "Chiaroscuro"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Leonardo was the first to investigate scientifically and to apply to art the laws of light and shade"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ART_MOVEMENT",
+        "Name": "Florentine Renaissance"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Leonardo was thus in the forefront of the Florentine Renaissance"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "King Francis I."
+      },
+      "Relationship": "VISITED",
+      "Reason": "King Francis I., who was accustomed frequently and affectionately to visit him"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Thus died \"Mr. Lionard de Vincy, the noble Milanese"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Duke of Milan"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "\"former Professor of Painting to the Duke of Milan.\""
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTISTIC_TECHNIQUE",
+        "Name": "Chiaroscuro"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "He observed with strict accuracy the subtleties of chiaroscuro"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ART_MOVEMENT",
+        "Name": "Florentine Renaissance"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Leonardo, whose birth antedates that of Michelangelo and Raphael by twenty three and thirty-one years respectively, was thus in the forefront of the Florentine Renaissance."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "King Francis I."
+      },
+      "Relationship": "DIED_IN_ARMS_OF",
+      "Reason": "departed in the arms of the monarch"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francesco Melzi"
+      },
+      "Relationship": "WORKED_WITH",
+      "Reason": "wrote his friend and assistant Francesco Melzi"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Piero della Francesca"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "the preliminary investigations of Piero della Francesca deserve to be recorded"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "St. Germain-en-Laye"
+      },
+      "Relationship": "VISITED",
+      "Reason": "the King was in all probability on that date at St. Germain-en-Laye"
+    }
+  ]
+}

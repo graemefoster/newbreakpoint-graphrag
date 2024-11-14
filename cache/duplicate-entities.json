@@ -1,0 +1,115 @@
+{
+   "duplicates": [
+       {
+           "primary": "leonardo da vinci|person",
+           "duplicates": [
+             "leonardo|person"
+           ]
+       },
+       {
+           "primary": "the virgin of the rocks|artwork",
+           "duplicates": [
+             "vierge aux rochers|artwork",
+             "virgin of the rocks|artwork"
+           ]
+       },
+       {
+           "primary": "last supper|artwork",
+           "duplicates": [
+             "the last supper|artwork"
+           ]
+       },
+       {
+           "primary": "uffizi gallery|institution",
+           "duplicates": [
+             "uffizi|location"
+           ]
+       },
+       {
+           "primary": "royal library at windsor|institution",
+           "duplicates": [
+             "drawing in the royal library at windsor|artwork"
+           ]
+       },
+       {
+           "primary": "milan|location",
+           "duplicates": [
+             "church of st. francesco at milan|location",
+             "the court of milan|location"
+           ]
+       },
+       {
+           "primary": "isabella of aragon|person",
+           "duplicates": [
+             "isabella d'este|person"
+           ]
+       },
+       {
+           "primary": "st john the baptist|person",
+           "duplicates": [
+             "st. john|person",
+             "john|person"
+           ]
+       },
+       {
+           "primary": "the louvre|location",
+           "duplicates": [
+             "louvre|institution"
+           ]
+       },
+       {
+           "primary": "prior of the convent|person",
+           "duplicates": [
+             "padre bandelli|person"
+           ]
+       },
+       {
+           "primary": "raphael|person",
+           "duplicates": [
+             "raffaello sanzio da urbino|person" 
+           ]
+       },
+       {
+           "primary": "mona lisa|person",
+           "duplicates": [
+             "lisa di anton maria di noldo gherardini|person"
+           ]
+       },
+       {
+           "primary": "battle of novara|historical_event",
+           "duplicates": [
+             "ludovico's defeat at novara|historical_event"
+           ]
+       },
+       {
+           "primary": "francesco di bartolommeo de zenobi del giocondo|person",
+           "duplicates": [
+             "francesco melzi|person"
+           ]
+       },
+       {
+           "primary": "victoria and albert museum|institution",
+           "duplicates": [
+             "vna|institution"
+           ]
+       },
+       {
+           "primary": "florence|location",
+           "duplicates": [
+             "florentina|location"
+           ]
+       },
+       {
+           "primary": "royal academy|institution",
+           "duplicates": [
+             "academy|institution"
+           ]
+       },
+       {
+           "primary": "giuliano de' medici|person",
+           "duplicates": [
+             "giuliano di lorenzo de' medici|person"
+           ]
+       }
+   ]
+}

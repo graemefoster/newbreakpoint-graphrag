@@ -1,0 +1,164 @@
+{
+  "Entities": [
+    {
+      "Reason": "the text mentioned 'St. John the Baptist'",
+      "Type": "PERSON",
+      "Name": "St John the Baptist"
+    },
+    {
+      "Reason": "the text mentioned 'Leonardo painted his... 'Last Supper''",
+      "Type": "ARTWORK",
+      "Name": "Last Supper"
+    },
+    {
+      "Reason": "the text mentioned 'magnificently painted, and by Leonardo'",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "the text mentioned 'In the National Gallery version'",
+      "Type": "LOCATION",
+      "Name": "the National Gallery"
+    },
+    {
+      "Reason": "the text mentioned 'chef d'oeuvre'",
+      "Type": "ARTWORK",
+      "Name": "chef d'oeuvre"
+    },
+    {
+      "Reason": "the text mentioned 'for the end wall of the Refectory of the Dominican Convent of S. Maria delle Grazie at Milan'",
+      "Type": "LOCATION",
+      "Name": "Refectory of the Dominican Convent of S. Maria delle Grazie at Milan"
+    },
+    {
+      "Reason": "the text mentioned 'the feet of the Christ'",
+      "Type": "PERSON",
+      "Name": "Christ"
+    },
+    {
+      "Reason": "the text mentioned 'one Michelangelo Belotti'",
+      "Type": "PERSON",
+      "Name": "Michelangelo Belotti"
+    },
+    {
+      "Reason": "the text mentioned 'at Milan'",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "the text mentioned 'Professor Cavenaghi'",
+      "Type": "PERSON",
+      "Name": "Professor Cavenaghi"
+    },
+    {
+      "Reason": "the text mentioned 'the fresco was again restored by Mazza'",
+      "Type": "PERSON",
+      "Name": "Mazza"
+    },
+    {
+      "Reason": "the text mentioned 'Napoleon's cavalry'",
+      "Type": "PERSON",
+      "Name": "Napoleon"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "the text mentioned 'Between 1496 and 1498 Leonardo painted his... 'Last Supper''"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Last Supper"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Refectory of the Dominican Convent of S. Maria delle Grazie at Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "the text mentioned 'for the end wall of the Refectory of the Dominican Convent of S. Maria delle Grazie at Milan'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo painted his chef d'oeuvre, the 'Last Supper'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Last Supper"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Refectory of the Dominican Convent of S. Maria delle Grazie at Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "for the end wall of the Refectory of the Dominican Convent of S. Maria delle Grazie at Milan"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Michelangelo Belotti"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Last Supper"
+      },
+      "Relationship": "RESTORED",
+      "Reason": "In 1726 one Michelangelo Belotti, an obscure Milanese painter, received £300 for the worthless labour he bestowed on restoring it"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Mazza"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Last Supper"
+      },
+      "Relationship": "RESTORED",
+      "Reason": "In 1770 the fresco was again restored by Mazza"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Professor Cavenaghi"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Last Supper"
+      },
+      "Relationship": "RESTORED",
+      "Reason": "In October 1908 Professor Cavenaghi completed"
+    }
+  ]
+}

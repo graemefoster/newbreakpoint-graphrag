@@ -1,0 +1,332 @@
+{
+  "Entities": [
+    {
+      "Reason": "the story takes place in the Court of Milan",
+      "Type": "LOCATION",
+      "Name": "The Court of Milan"
+    },
+    {
+      "Reason": "Ludovico is mentioned as the Duke and a central character in the narrative",
+      "Type": "PERSON",
+      "Name": "Ludovico"
+    },
+    {
+      "Reason": "Leonardo is mentioned as the court-painter",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "Beatrice d'Este is mentioned as Ludovico's wife and a central character",
+      "Type": "PERSON",
+      "Name": "Beatrice d'Este"
+    },
+    {
+      "Reason": "Cecilia Gallerani is mentioned as the Sappho of her day and a central character in the narrative",
+      "Type": "PERSON",
+      "Name": "Cecilia Gallerani"
+    },
+    {
+      "Reason": "Count Ludovico Bergamini is mentioned as Cecilia's husband",
+      "Type": "PERSON",
+      "Name": "Count Ludovico Bergamini"
+    },
+    {
+      "Reason": "Lucrezia Crivelli is mentioned as a lady-in-waiting and a central character in the narrative",
+      "Type": "PERSON",
+      "Name": "Lucrezia Crivelli"
+    },
+    {
+      "Reason": "Ambrogio da Predis is mentioned in relation to a portrait of Lucrezia",
+      "Type": "PERSON",
+      "Name": "Ambrogio da Predis"
+    },
+    {
+      "Reason": "The collection is mentioned as the location of a portrait by Ambrogio da Predis",
+      "Type": "LOCATION",
+      "Name": "Collection of the Earl of Roden"
+    },
+    {
+      "Reason": "The Louvre is mentioned as the location of a portrait",
+      "Type": "LOCATION",
+      "Name": "The Louvre"
+    },
+    {
+      "Reason": "This location is mentioned where Beatrice spent three hours in prayer",
+      "Type": "LOCATION",
+      "Name": "The Church of St. Maria delle Grazie"
+    },
+    {
+      "Reason": "Isabella d'Este is mentioned as Beatrice's sister and is central to the narrative",
+      "Type": "PERSON",
+      "Name": "Isabella d'Este"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Beatrice d'Este"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "Ludovico had married Beatrice d'Este"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "EMPLOYED",
+      "Reason": "Leonardo was now court-painter for Ludovico"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "Cecilia was given a similar dress, presumably by Ludovico"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Count Ludovico Bergamini"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "Cecilia was married to Count Ludovico Bergamini"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Lucrezia Crivelli"
+      },
+      "Relationship": "INLOVE",
+      "Reason": "Ludovico became enamoured of Lucrezia Crivelli"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Isabella d'Este"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "Relationship": "WROTE_TO",
+      "Reason": "Isabella d'Este wrote to Cecilia Gallerani"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Isabella d'Este"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Beatrice d'Este"
+      },
+      "Relationship": "SIBLING",
+      "Reason": "Isabella d'Este is Beatrice's elder sister"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "EMPLOYED",
+      "Reason": "Ludovico, to whom Leonardo was now court-painter"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Beatrice d'Este"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "Ludovico... had married Beatrice d'Este, in 1491"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "Having discarded Cecilia, who... was married in 1491 to Count Ludovico Bergamini"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Count Ludovico Bergamini"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "Having discarded Cecilia, who... was married in 1491 to Count Ludovico Bergamini"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Lucrezia Crivelli"
+      },
+      "Relationship": "INLOVE",
+      "Reason": "the Duke in 1496 became enamoured of Lucrezia Crivelli"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Isabella d'Este"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Beatrice d'Este"
+      },
+      "Relationship": "SIBLING",
+      "Reason": "In April 1498, Isabella d'Este, Beatrice's elder, more beautiful, and more graceful sister"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Isabella d'Este"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "Relationship": "WROTE_TO",
+      "Reason": "wrote to Cecilia Gallerani, or Bergamini"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ambrogio da Predis"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTISTIC_TECHNIQUE",
+        "Name": "portrait"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Lucrezia, whose features are more likely to be preserved to us in the portrait by Ambrogio da Predis"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTISTIC_TECHNIQUE",
+        "Name": "portrait"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo, as court painter, perhaps painted a portrait, now lost, of Lucrezia"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "The Church of St. Maria delle Grazie"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Beatrice d'Este"
+      },
+      "Relationship": "VISITED",
+      "Reason": "Beatrice spent three hours in prayer in the church of St. Maria delle Grazie"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Collection of the Earl of Roden"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "portrait"
+      },
+      "Relationship": "OWNED",
+      "Reason": "the portrait by Ambrogio da Predis, now in the Collection of the Earl of Roden"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "The Louvre"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "portrait"
+      },
+      "Relationship": "OWNED",
+      "Reason": "the quite unauthenticated portrait (Plate VII.), now in the Louvre"
+    }
+  ]
+}

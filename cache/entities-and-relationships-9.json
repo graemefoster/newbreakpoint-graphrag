@@ -1,0 +1,309 @@
+{
+  "Entities": [
+    {
+      "Reason": "Mentioned as a picture painted about 1482 and associated with Leonardo",
+      "Type": "ARTWORK",
+      "Name": "Vierge aux Rochers"
+    },
+    {
+      "Reason": "Mentioned as the version in the National Gallery",
+      "Type": "ARTWORK",
+      "Name": "Virgin of the Rocks"
+    },
+    {
+      "Reason": "Mentioned as an artist associated with Vierge aux Rochers and Virgin of the Rocks",
+      "Type": "PERSON",
+      "Name": "Leonardo da Vinci"
+    },
+    {
+      "Reason": "Mentioned as helping supervise and assist in the work on Virgin of the Rocks",
+      "Type": "PERSON",
+      "Name": "Ambrogio da Predis"
+    },
+    {
+      "Reason": "Eventually purchased the picture for £9000",
+      "Type": "INSTITUTION",
+      "Name": "National Gallery"
+    },
+    {
+      "Reason": "Location of the earlier version of 'Vierge aux Rochers",
+      "Type": "LOCATION",
+      "Name": "Louvre"
+    },
+    {
+      "Reason": "Location where the Chapel of the Conception is located",
+      "Type": "LOCATION",
+      "Name": "Church of St. Francesco at Milan"
+    },
+    {
+      "Reason": "Involved in a dispute over the valuation of the art",
+      "Type": "INSTITUTION",
+      "Name": "Brotherhood of the Conception"
+    },
+    {
+      "Reason": "Brought the picture to England in 1777",
+      "Type": "PERSON",
+      "Name": "Gavin Hamilton"
+    },
+    {
+      "Reason": "Purchased the picture from Gavin Hamilton",
+      "Type": "PERSON",
+      "Name": "Marquess of Lansdowne"
+    },
+    {
+      "Reason": "Owned the picture before its purchase by the National Gallery",
+      "Type": "PERSON",
+      "Name": "Earl of Suffolk"
+    },
+    {
+      "Reason": "Unearthed a letter in the State Archives of Milan",
+      "Type": "PERSON",
+      "Name": "Signor Emilio Motta"
+    },
+    {
+      "Reason": "Mentioned multiple times in the context of the letter and the Chapel of the Conception",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Vierge aux Rochers"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo's name can be connected to the Vierge aux Rochers"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Virgin of the Rocks was executed mainly by Ambrogio da Predis under the supervision, and with the help, of Leonardo"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ambrogio da Predis"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Virgin of the Rocks was executed mainly by Ambrogio da Predis under the supervision, and with the help, of Leonardo"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Gavin Hamilton"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "Gavin Hamilton brought the picture to England"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Marquess of Lansdowne"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "The picture was sold to the Marquess of Lansdowne by Gavin Hamilton"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Earl of Suffolk"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "The picture was in the Collection of the Earl of Suffolk at Charlton Park"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "National Gallery"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "The picture was eventually purchased by the National Gallery for £9000"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Brotherhood of the Conception"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "A dispute had arisen between Leonardo and the Brotherhood of the Conception regarding the valuation of certain works of art"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ambrogio da Predis"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Brotherhood of the Conception"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "A dispute had arisen between Ambrogio and the Brotherhood of the Conception regarding the valuation of certain works of art"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Brotherhood of the Conception"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Giovanni Ambrogio da Predis and Leonardo da Vinci to the Duke of Milan, praying him to intervene in a dispute, which had arisen between the petitioners and the Brotherhood of the Conception"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ambrogio da Predis"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Brotherhood of the Conception"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Giovanni Ambrogio da Predis and Leonardo da Vinci to the Duke of Milan, praying him to intervene in a dispute, which had arisen between the petitioners and the Brotherhood of the Conception"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Signor Emilio Motta, some fifteen years ago, unearthed in the State Archives of Milan a letter or memorial from Giovanni Ambrogio da Predis and Leonardo da Vinci to the Duke of Milan"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ambrogio da Predis"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Signor Emilio Motta, some fifteen years ago, unearthed in the State Archives of Milan a letter or memorial from Giovanni Ambrogio da Predis and Leonardo da Vinci to the Duke of Milan"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Gavin Hamilton"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "brought to England in 1777 by Gavin Hamilton"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Marquess of Lansdowne"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "sold by him to the Marquess of Lansdowne, who subsequently exchanged it for another picture"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Earl of Suffolk"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "Marquess of Lansdowne, who subsequently exchanged it for another picture in the Collection of the Earl of Suffolk at Charlton Park, Wiltshire"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "National Gallery"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "from whom it was eventually purchased by the National Gallery for £9000"
+    }
+  ]
+}

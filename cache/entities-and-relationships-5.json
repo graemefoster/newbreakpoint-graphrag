@@ -1,0 +1,329 @@
+{
+  "Entities": [
+    {
+      "Reason": "the story described Leonardo's artistic activities, such as sketches and paintings",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "Bernardo Bandini was mentioned in the context of the Pazzi Conspiracy and his execution",
+      "Type": "PERSON",
+      "Name": "Bernardo Bandini"
+    },
+    {
+      "Reason": "Bernardo Bandini was involved in the Pazzi Conspiracy",
+      "Type": "HISTORICAL_EVENT",
+      "Name": "Pazzi Conspiracy of April 1478"
+    },
+    {
+      "Reason": "Giuliano de' Medici was a victim in the Pazzi Conspiracy",
+      "Type": "PERSON",
+      "Name": "Giuliano de' Medici"
+    },
+    {
+      "Reason": "The Cathedral where Giuliano de' Medici was stabbed and where Bandini was executed is in Florence",
+      "Type": "LOCATION",
+      "Name": "Florence"
+    },
+    {
+      "Reason": "Leonardo's sketch of Bernardo Bandini was mentioned",
+      "Type": "ARTWORK",
+      "Name": "pen-and-ink sketch of Bernardo Bandini"
+    },
+    {
+      "Reason": "The pen-and-ink sketch is now in a private collection in Paris",
+      "Type": "LOCATION",
+      "Name": "Paris"
+    },
+    {
+      "Reason": "St. Jerome in the Desert was mentioned as an unfinished painting by Leonardo",
+      "Type": "ARTWORK",
+      "Name": "St. Jerome in the Desert"
+    },
+    {
+      "Reason": "St. Jerome in the Desert is now in the Vatican",
+      "Type": "LOCATION",
+      "Name": "Vatican"
+    },
+    {
+      "Reason": "A drawing similar to St. Jerome in the Desert was mentioned to be in the Royal Library at Windsor",
+      "Type": "INSTITUTION",
+      "Name": "Royal Library at Windsor"
+    },
+    {
+      "Reason": "Cardinal Fesch discovered parts of St. Jerome in the Desert in shops in Rome",
+      "Type": "PERSON",
+      "Name": "Cardinal Fesch"
+    },
+    {
+      "Reason": "Cardinal Fesch found parts of St. Jerome in the Desert in Rome",
+      "Type": "LOCATION",
+      "Name": "Rome"
+    },
+    {
+      "Reason": "Pope Pius IX purchased the joined panel of St. Jerome in the Desert",
+      "Type": "PERSON",
+      "Name": "Pope Pius IX"
+    },
+    {
+      "Reason": "The joined panel of St. Jerome in the Desert was added to the Vatican Collection",
+      "Type": "INSTITUTION",
+      "Name": "Vatican Collection"
+    },
+    {
+      "Reason": "Leonardo was commissioned to paint an altar-piece for the monks of St. Donato at Scopeto",
+      "Type": "LOCATION",
+      "Name": "St. Donato at Scopeto"
+    },
+    {
+      "Reason": "Leonardo created a cartoon of the Adoration of the Magi after being commissioned to paint an altar-piece for St. Donato at Scopeto",
+      "Type": "ARTWORK",
+      "Name": "Adoration of the Magi"
+    },
+    {
+      "Reason": "The cartoon of the Adoration of the Magi is now in the Uffizi",
+      "Type": "LOCATION",
+      "Name": "Uffizi"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Bernardo Bandini"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo created a pen-and-ink sketch of Bernardo Bandini"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "St. Jerome in the Desert"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "St. Jerome in the Desert was painted by Leonardo"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Giuliano de' Medici"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo's sketch is of Bernardo Bandini, who stabbed Giuliano de' Medici"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Adoration of the Magi"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo created a cartoon of the Adoration of the Magi"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "pen-and-ink sketch of Bernardo Bandini"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "His vigorous pen-and-ink sketch--now in a private collection in Paris--of Bernardo Bandini."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Florence"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "HISTORICAL_EVENT",
+        "Name": "Pazzi Conspiracy of April 1478"
+      },
+      "Relationship": "LOCATION",
+      "Reason": "stabbed Giuliano de' Medici to death in the Cathedral at Florence during High Mass."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Bernardo Bandini"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "HISTORICAL_EVENT",
+        "Name": "Pazzi Conspiracy of April 1478"
+      },
+      "Relationship": "PARTICIPANT",
+      "Reason": "who in the Pazzi Conspiracy of April 1478 stabbed Giuliano de' Medici."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Giuliano de' Medici"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "HISTORICAL_EVENT",
+        "Name": "Pazzi Conspiracy of April 1478"
+      },
+      "Relationship": "VICTIM",
+      "Reason": "stabbed Giuliano de' Medici to death in the Cathedral at Florence during High Mass."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "St. Jerome in the Desert"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Vatican"
+      },
+      "Relationship": "LOCATION",
+      "Reason": "unfinished 'St. Jerome in the Desert,' now in the Vatican."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "St. Jerome in the Desert"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Vatican Collection"
+      },
+      "Relationship": "OWNED",
+      "Reason": "The jointed panel was eventually purchased by Pope Pius IX., and added to the Vatican Collection."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "St. Jerome in the Desert"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "In that year also, no doubt, was painted the early and, as might be expected, unfinished 'St. Jerome in the Desert.'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "St. Jerome in the Desert"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "drawing in the Royal Library at Windsor"
+      },
+      "Relationship": "SIMILAR_TO",
+      "Reason": "also by the similarity of treatment seen in a drawing in the Royal Library at Windsor."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cardinal Fesch"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Rome"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "a princely collector in Rome in the early part of the nineteenth century."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Pope Pius IX"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "St. Jerome in the Desert"
+      },
+      "Relationship": "OWNED",
+      "Reason": "The jointed panel was eventually purchased by Pope Pius IX., and added to the Vatican Collection."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Adoration of the Magi"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "the supremely beautiful cartoon of the 'Adoration of the Magi,' now in the Uffizi."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Adoration of the Magi"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Uffizi"
+      },
+      "Relationship": "LOCATION",
+      "Reason": "the supremely beautiful cartoon of the 'Adoration of the Magi,' now in the Uffizi."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "St. Donato at Scopeto"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "In March 1480 Leonardo was commissioned to paint an altar-piece for the monks of St. Donato at Scopeto."
+    }
+  ]
+}

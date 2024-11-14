@@ -1,0 +1,214 @@
+{
+  "Entities": [
+    {
+      "Reason": "central figure discussed as a universal genius, artist, scientist, and philosopher",
+      "Type": "PERSON",
+      "Name": "Leonardo da Vinci"
+    },
+    {
+      "Reason": "mentioned in the context of being in the National Gallery with specific details of the painting",
+      "Type": "ARTWORK",
+      "Name": "The Virgin of the Rocks"
+    },
+    {
+      "Reason": "the original version of 'The Virgin of the Rocks' located in the Louvre",
+      "Type": "ARTWORK",
+      "Name": "Vierge aux Rochers"
+    },
+    {
+      "Reason": "an early work of Leonardo da Vinci, located in the Louvre",
+      "Type": "ARTWORK",
+      "Name": "Annunciation"
+    },
+    {
+      "Reason": "mentioned as the place where 'The Virgin of the Rocks' was painted",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "location where 'The Virgin of the Rocks' is currently housed",
+      "Type": "INSTITUTION",
+      "Name": "National Gallery"
+    },
+    {
+      "Reason": "location where 'Vierge aux Rochers' and 'Annunciation' are housed",
+      "Type": "INSTITUTION",
+      "Name": "Louvre"
+    },
+    {
+      "Reason": "credited for painting 'The Virgin of the Rocks' under Leonardo's supervision",
+      "Type": "PERSON",
+      "Name": "Ambrogio da Predis"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin of the Rocks"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "Relationship": "SUPERVISED",
+      "Reason": "painted in Milan about 1495 by Ambrogio da Predis under the supervision and guidance of Leonardo da Vinci"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin of the Rocks"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Vierge aux Rochers"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "essential features of the composition being borrowed from the earlier 'Vierge aux Rochers'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "'Annunciation,' now in the Louvre, an early work by Leonardo"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin of the Rocks"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "painted in Milan about 1495"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "To about the year 1472 belongs the small picture of the 'Annunciation,' now in the Louvre..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo da Vinci"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin of the Rocks"
+      },
+      "Relationship": "SUPERVISED",
+      "Reason": "This picture was painted in Milan about 1495 by Ambrogio da Predis under the supervision and guidance of Leonardo da Vinci..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin of the Rocks"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Vierge aux Rochers"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "the essential features of the composition being borrowed from the earlier 'Vierge aux Rochers,' now in the Louvre."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ambrogio da Predis"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin of the Rocks"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "This picture was painted in Milan about 1495 by Ambrogio da Predis under the supervision and guidance of Leonardo da Vinci..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin of the Rocks"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "This picture was painted in Milan about 1495..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Virgin of the Rocks"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "National Gallery"
+      },
+      "Relationship": "OWNED",
+      "Reason": "In the National Gallery. No. 1093. 6 ft. ½ in. h. by 3 ft 9 ½ in. w. (1.83 x 1.15)..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Vierge aux Rochers"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Louvre"
+      },
+      "Relationship": "OWNED",
+      "Reason": "'Vierge aux Rochers,' now in the Louvre..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Annunciation"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Louvre"
+      },
+      "Relationship": "OWNED",
+      "Reason": "the small picture of the 'Annunciation,' now in the Louvre..."
+    }
+  ]
+}

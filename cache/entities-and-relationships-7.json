@@ -1,0 +1,247 @@
+{
+  "Entities": [
+    {
+      "Reason": "the story mentioned Leonardo's various skills such as constructing and painting.",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "It was about 1482, the probable date of Leonardo's migration from Florence to Milan.",
+      "Type": "LOCATION",
+      "Name": "Florence"
+    },
+    {
+      "Reason": "It was about 1482, the probable date of Leonardo's migration from Florence to Milan.",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "painted by Leonardo, now in the Louvre.",
+      "Type": "ARTWORK",
+      "Name": "Vierge aux Rochers"
+    },
+    {
+      "Reason": "painted by Leonardo, now in the National Gallery.",
+      "Type": "ARTWORK",
+      "Name": "Virgin of the Rocks"
+    },
+    {
+      "Reason": "a bronze equestrian statue of Francesco Sforza was proposed.",
+      "Type": "PERSON",
+      "Name": "Francesco Sforza"
+    },
+    {
+      "Reason": "a lost portrait of Cecilia Gallerani",
+      "Type": "PERSON",
+      "Name": "Cecilia Gallerani"
+    },
+    {
+      "Reason": "mistress of Ludovico Sforza",
+      "Type": "PERSON",
+      "Name": "Ludovico Sforza"
+    },
+    {
+      "Reason": "Boltraffio's painting, might have features of Cecilia Gallerani.",
+      "Type": "ARTWORK",
+      "Name": "Lady with a Weasel"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Vierge aux Rochers"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "he painted the 'Vierge aux Rochers,' now in the Louvre."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "more authentic than the 'Virgin of the Rocks,' now in the National Gallery."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Leonardo's migration from Florence to Milan"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francesco Sforza"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "he offers to execute the proposed bronze equestrian statue of Francesco Sforza"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico Sforza"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "Relationship": "MISTRESS_OF",
+      "Reason": "Cecilia Gallerani, one of the mistresses of Ludovico Sforza."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Lady with a Weasel"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "that lady's features are preserved to us in the 'Lady with a Weasel,' by Leonardo's pupil Boltraffio."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Vierge aux Rochers"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "he painted the 'Vierge aux Rochers,' now in the Louvre (No. 1599)."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "it is undoubtedly much earlier and considerably more authentic than the 'Virgin of the Rocks,' now in the National Gallery (Plate III.)."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "It was about 1482, the probable date of Leonardo's migration from Florence to Milan,"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Francesco Sforza"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "he offers to execute the proposed bronze equestrian statue of Francesco Sforza"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francesco Sforza"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "he offers to execute the proposed bronze equestrian statue of Francesco Sforza"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico Sforza"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "Relationship": "MISTRESS_OF",
+      "Reason": "Cecilia Gallerani, one of the mistresses of Ludovico Sforza"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cecilia Gallerani"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Lady with a Weasel"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "that lady's features are preserved to us in the 'Lady with a Weasel,' by Leonardo's pupil Boltraffio"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Florence"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "MIGRATED",
+      "Reason": "It was about 1482, the probable date of Leonardo's migration from Florence to Milan,"
+    }
+  ]
+}

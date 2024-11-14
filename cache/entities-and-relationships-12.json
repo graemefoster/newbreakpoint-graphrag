@@ -1,0 +1,106 @@
+{
+  "Entities": [
+    {
+      "Reason": "mentioned multiple times as the betrayer of his Lord",
+      "Type": "PERSON",
+      "Name": "Judas"
+    },
+    {
+      "Reason": "mentioned as someone who thinks it is easy to find a representation of Judas",
+      "Type": "PERSON",
+      "Name": "Padre Bandelli"
+    },
+    {
+      "Reason": "mentioned as a tool that struggles to express grandeur",
+      "Type": "OBJECT",
+      "Name": "Pencil"
+    },
+    {
+      "Reason": "mentioned as the price Judas received for betraying his Lord",
+      "Type": "OBJECT",
+      "Name": "Thirty silver coins"
+    },
+    {
+      "Reason": "the act of painting is discussed multiple times",
+      "Type": "ARTISTIC_TECHNIQUE",
+      "Name": "Painting"
+    },
+    {
+      "Reason": "described as part of seeking to shape the glorious face within",
+      "Type": "ARTISTIC_TECHNIQUE",
+      "Name": "Prayer"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Judas"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "OBJECT",
+        "Name": "Thirty silver coins"
+      },
+      "Relationship": "OWNED",
+      "Reason": "He who for thirty silver coins could sell his Lord"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Judas"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Padre Bandelli"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "Padre Bandelli thinks it easy is to find the type of him who with a kiss betrayed his Lord."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Judas"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "OBJECT",
+        "Name": "Thirty silver coins"
+      },
+      "Relationship": "OWNED",
+      "Reason": "He who for thirty silver coins could sell His Lord, must be the Devil's miracle."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Judas"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Padre Bandelli"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "Padre Bandelli thinks it easy is To find the type of him who with a kiss Betrayed his Lord."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Judas"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTISTIC_TECHNIQUE",
+        "Name": "Painting"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "For Judas' face I'm willing to paint his."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+python -m graphrag.query \                         
+--root ./ \
+--method local \
+"What paintings did Leonardo make?"
+
+### Leonardo da Vinci's Paintings
+
+Leonardo da Vinci, one of the most renowned artists of the Renaissance, created numerous masterpieces that have left an indelible mark on the history of art. Below is a summary of some of his most significant works:
+
+#### The Last Supper
+Leonardo da Vinci painted "The Last Supper" between 1496 and 1498. This iconic mural, commissioned by Ludovico Sforza, is located in the Refectory of the Dominican Convent of S. Maria delle Grazie in Milan. It exemplifies Leonardo's mastery of composition, use of light and shadow, and innovative techniques [Data: Reports (18, 20, 16, 39, 15, +more)].
+
+#### Mona Lisa
+The "Mona Lisa," also known as La Gioconda, is perhaps Leonardo's most famous painting. Housed in the Louvre Museum in Paris, this portrait is celebrated for its innovative use of sfumato, a technique that creates a soft, gradual transition between colors and tones [Data: Reports (20, 35, 2, 24)].
+
+#### Virgin of the Rocks
+Leonardo painted two versions of "The Virgin of the Rocks." One version is housed in the Louvre, while the other is in the National Gallery in London. This painting showcases his mastery in blending naturalism with spiritual themes and his innovative use of chiaroscuro and sfumato techniques [Data: Reports (35, 33, 46, 45, 41)].
+
+#### Madonna, the Infant Christ, and Saint Anne
+This significant artwork, also known as "The Virgin and Child with St. Anne," is located in the Louvre. It reflects Leonardo's skill in depicting complex human emotions and interactions [Data: Reports (35, 36)].
+
+#### St. Jerome in the Desert
+"St. Jerome in the Desert" is an early and unfinished work by Leonardo, now housed in the Vatican. Despite its unfinished state, it provides insight into Leonardo's meticulous approach to anatomy and expression [Data: Reports (7)].
+
+#### The Annunciation
+Leonardo's "The Annunciation" has versions housed in the Uffizi Gallery and the Louvre. This painting is notable for its detailed depiction of the angel Gabriel and the Virgin Mary [Data: Reports (1)].
+
+#### Adoration of the Magi
+The "Adoration of the Magi" is another unfinished masterpiece by Leonardo, currently housed in the Uffizi Gallery. It is renowned for its complex composition and dynamic figures [Data: Reports (21)].
+
+#### Lady with a Weasel
+"Lady with a Weasel," also known as "Lady with an Ermine," is a notable work from Leonardo's time in Milan. It is believed to preserve the features of Cecilia Gallerani and is attributed to his pupil Boltraffio. This painting is held in the Czartoryski Collection in Cracow [Data: Reports (41, 17)].
+
+#### Other Notable Works
+- **Baptism of Christ**: Leonardo contributed to this painting by Verrocchio, specifically painting one of the attendant angels [Data: Reports (25)].
+- **The Virgin and Child with St. Anne and St. John**: This painting is currently housed at Burlington House [Data: Reports (37)].
+- **Head of Christ**: A preparatory study for "The Last Supper," housed in the Brera Gallery in Milan [Data: Reports (15)].
+- **Battle of Anghiari**: An unfinished mural commissioned by the Signoria in 1504 [Data: Reports (3)].
+- **Warrior**: A drawing now part of the Malcolm Collection in the British Museum [Data: Reports (31)].
+
+Leonardo's diverse body of work, ranging from portraits to religious scenes, showcases his unparalleled skill and innovative techniques that continue to influence artists to this day.

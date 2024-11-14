@@ -1,0 +1,337 @@
+{
+  "Entities": [
+    {
+      "Reason": "Verrocchio was mentioned as one of the painters of 'Baptism of Christ' and the teacher of Leonardo.",
+      "Type": "PERSON",
+      "Name": "Verrocchio"
+    },
+    {
+      "Reason": "Leonardo was mentioned as the pupil of Verrocchio and the one who painted an angel in 'Baptism of Christ'.",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "An artwork mentioned in the text painted by Verrocchio and Leonardo.",
+      "Type": "ARTWORK",
+      "Name": "Baptism of Christ"
+    },
+    {
+      "Reason": "The location where 'Baptism of Christ' is currently situated.",
+      "Type": "INSTITUTION",
+      "Name": "Accademia in Florence"
+    },
+    {
+      "Reason": "An artwork mentioned in the text associated with Leonardo.",
+      "Type": "ARTWORK",
+      "Name": "Warrior"
+    },
+    {
+      "Reason": "The location where the drawing of 'Warrior' is currently situated.",
+      "Type": "INSTITUTION",
+      "Name": "Malcolm Collection in the British Museum"
+    },
+    {
+      "Reason": "Full name of Verrocchio, Leonardo's teacher and the artist commissioned to create the equestrian statue of Bartolommeo Colleoni.",
+      "Type": "PERSON",
+      "Name": "Andrea del Verrocchio"
+    },
+    {
+      "Reason": "An artwork created by Andrea del Verrocchio.",
+      "Type": "OBJECT",
+      "Name": "Equestrian statue of Bartolommeo Colleoni"
+    },
+    {
+      "Reason": "The location where the equestrian statue of Bartolommeo Colleoni is situated.",
+      "Type": "LOCATION",
+      "Name": "Campo di San Giovanni e Paolo in Venice"
+    },
+    {
+      "Reason": "The location where Leonardo visited and worked for Ludovico Sforza.",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "Leonardo's future patron.",
+      "Type": "PERSON",
+      "Name": "Ludovico Sforza"
+    },
+    {
+      "Reason": "An artwork created by Leonardo and located in the Refectory of St. Maria delle Grazie in Milan.",
+      "Type": "ARTWORK",
+      "Name": "The Last Supper"
+    },
+    {
+      "Reason": "The location where 'The Last Supper' is situated.",
+      "Type": "INSTITUTION",
+      "Name": "Refectory of St. Maria delle Grazie"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Verrocchio"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Verrocchio was painting the 'Baptism of Christ' and allowed Leonardo to paint one of the attendant angels."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Andrea del Verrocchio"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Andrea del Verrocchio was commissioned to execute the equestrian statue of Bartolommeo Colleoni"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Verrocchio"
+      },
+      "Relationship": "TEACHER",
+      "Reason": "This the pupil did so admirably that his remarkable genius clearly revealed itself."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Baptism of Christ"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo to paint in one of the attendant angels holding some vestments."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Baptism of Christ"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Accademia in Florence"
+      },
+      "Relationship": "LIVES_IN",
+      "Reason": "This 'Baptism of Christ,' which is now in the Accademia in Florence."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Warrior"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Malcolm Collection in the British Museum"
+      },
+      "Relationship": "OWNED",
+      "Reason": "To about this period belongs the superb drawing of the 'Warrior,' now in the Malcolm Collection in the British Museum."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "OBJECT",
+        "Name": "Equestrian statue of Bartolommeo Colleoni"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Campo di San Giovanni e Paolo in Venice"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "still adorns the Campo di San Giovanni e Paolo in Venice."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "PLATE IV.-THE LAST SUPPER Refectory of St. Maria delle Grazie, Milan."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Refectory of St. Maria delle Grazie"
+      },
+      "Relationship": "OWNED",
+      "Reason": "PLATE IV.-THE LAST SUPPER Refectory of St. Maria delle Grazie, Milan."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "VISITED",
+      "Reason": "FIRST VISIT TO MILAN"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Verrocchio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "TEACHER",
+      "Reason": "Vasari tells us that while Verrocchio was painting the \"Baptism of Christ\" he allowed Leonardo to paint..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Baptism of Christ"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo to paint in one of the attendant angels holding some vestments."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Baptism of Christ"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Accademia in Florence"
+      },
+      "Relationship": "OWNED",
+      "Reason": "This \"Baptism of Christ,\" which is now in the Accademia in Florence..."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Warrior"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Malcolm Collection in the British Museum"
+      },
+      "Relationship": "OWNED",
+      "Reason": "the superb drawing of the \"Warrior,\" now in the Malcolm Collection in the British Museum"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "OBJECT",
+        "Name": "Equestrian statue of Bartolommeo Colleoni"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Campo di San Giovanni e Paolo in Venice"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "was commissioned to execute the equestrian statue of Bartolommeo Colleoni... and still adorns the Campo di San Giovanni e Paolo in Venice."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "PLATE IV.-THE LAST SUPPER"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Refectory of St. Maria delle Grazie"
+      },
+      "Relationship": "OWNED",
+      "Reason": "Refectory of St. Maria delle Grazie, Milan."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "About 1482 Leonardo entered the service of Ludovico Sforza"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ludovico Sforza"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "About 1482 Leonardo entered the service of Ludovico Sforza"
+    }
+  ]
+}

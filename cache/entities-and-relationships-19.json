@@ -1,0 +1,403 @@
+{
+  "Entities": [
+    {
+      "Reason": "Leonardo left his native land for France",
+      "Type": "LOCATION",
+      "Name": "France"
+    },
+    {
+      "Reason": "he was in Rome, where Giovanni de' Medici had been elected Pope",
+      "Type": "LOCATION",
+      "Name": "Rome"
+    },
+    {
+      "Reason": "Giovanni de' Medici had been elected Pope under the title of Leo X",
+      "Type": "PERSON",
+      "Name": "Giovanni de' Medici"
+    },
+    {
+      "Reason": "he resided in the Vatican",
+      "Type": "INSTITUTION",
+      "Name": "Vatican"
+    },
+    {
+      "Reason": "Leonardo left his native land for France",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "he received from Francis I. a princely income",
+      "Type": "PERSON",
+      "Name": "Francis I"
+    },
+    {
+      "Reason": "in the Louvre that his achievements as a painter can to-day be adequately studied.",
+      "Type": "LOCATION",
+      "Name": "Louvre"
+    },
+    {
+      "Reason": "In the Louvre. No. 1508. Painted between 1509 and 1516 with the help of assistants.",
+      "Type": "ARTWORK",
+      "Name": "Madonna, Infant Christ, and St. Anne"
+    },
+    {
+      "Reason": "he was resident at the Manor House of Cloux near Amboise in Touraine",
+      "Type": "LOCATION",
+      "Name": "Manor House of Cloux near Amboise in Touraine"
+    },
+    {
+      "Reason": "Francesco Melzi, his friend and assistant",
+      "Type": "PERSON",
+      "Name": "Francesco Melzi"
+    },
+    {
+      "Reason": "he showed three of his pictures to the Cardinal of Aragon",
+      "Type": "PERSON",
+      "Name": "Cardinal of Aragon"
+    },
+    {
+      "Reason": "he drew the 'Portrait of Himself' in red chalk",
+      "Type": "ARTWORK",
+      "Name": "Portrait of Himself"
+    },
+    {
+      "Reason": "the 'Portrait of Himself' in red chalk, now at Turin",
+      "Type": "LOCATION",
+      "Name": "Turin"
+    },
+    {
+      "Reason": "Leonardo da Vinci made his will, and on May 2 of he died",
+      "Type": "HISTORICAL_EVENT",
+      "Name": "Death of Leonardo da Vinci"
+    },
+    {
+      "Reason": "exactly forty-five years before the birth of Shakespeare",
+      "Type": "PERSON",
+      "Name": "Shakespeare"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Rome"
+      },
+      "Relationship": "VISITED",
+      "Reason": "From 1513-1515 he was in Rome"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Giovanni de' Medici"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Vatican"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Giovanni de' Medici had been elected Pope under the title of Leo X"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Vatican"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "he resided in the Vatican"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "France"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "At last in 1516, three years before his death, Leonardo left his native land for France"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francis I"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "he received from Francis I. a princely income"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Madonna, Infant Christ, and St. Anne"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Painted between 1509 and 1516 with the help of assistants."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Madonna, Infant Christ, and St. Anne"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Louvre"
+      },
+      "Relationship": "OWNED",
+      "Reason": "In the Louvre. No. 1508."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Manor House of Cloux near Amboise in Touraine"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "he was resident at the Manor House of Cloux near Amboise in Touraine"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francesco Melzi"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Francesco Melzi, his friend and assistant"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cardinal of Aragon"
+      },
+      "Relationship": "VISITED",
+      "Reason": "he showed three of his pictures to the Cardinal of Aragon"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Portrait of Himself"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "he drew the 'Portrait of Himself' in red chalk"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Rome"
+      },
+      "Relationship": "VISITED",
+      "Reason": "From 1513-1515 he was in Rome"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Giovanni de' Medici"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Vatican"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Giovanni de' Medici had been elected Pope under the title of Leo X."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Vatican"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "although he resided in the Vatican, his time being occupied"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "France"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "At last in 1516, three years before his death, Leonardo left his native land for France"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francis I"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Leonardo left his native land for France, where he received from Francis I. a princely income."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Madonna, Infant Christ, and St. Anne"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Painted between 1509 and 1516 with the help of assistants."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Madonna, Infant Christ, and St. Anne"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Louvre"
+      },
+      "Relationship": "OWNED",
+      "Reason": "In the Louvre. No. 1508."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Manor House of Cloux near Amboise in Touraine"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "October 10, 1516, when he was resident at the Manor House of Cloux near Amboise in Touraine"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Francesco Melzi"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "with Francesco Melzi, his friend and assistant"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Cardinal of Aragon"
+      },
+      "Relationship": "VISITED",
+      "Reason": "he showed three of his pictures to the Cardinal of Aragon"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Portrait of Himself"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "It was no doubt in these closing years of his life that he drew the \"Portrait of Himself\" in red chalk"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Portrait of Himself"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Turin"
+      },
+      "Relationship": "OWNED",
+      "Reason": "the \"Portrait of Himself\" in red chalk, now at Turin"
+    }
+  ]
+}

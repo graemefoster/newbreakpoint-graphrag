@@ -1,0 +1,115 @@
+{
+  "Entities": [
+    {
+      "Reason": "Leonardo was mentioned as the painter of the portrait",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "Mona Lisa was the subject of the portrait painted by Leonardo",
+      "Type": "PERSON",
+      "Name": "Mona Lisa"
+    },
+    {
+      "Reason": "The text discusses Leonardo painting the portrait of Mona Lisa",
+      "Type": "ARTWORK",
+      "Name": "Mona Lisa's portrait"
+    },
+    {
+      "Reason": "Leonardo's conception of the head of Christ is located in Milan",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "The text mentions the subtlety of the pencil",
+      "Type": "OBJECT",
+      "Name": "pencil"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Mona Lisa's portrait"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Leonardo was painting her portrait"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Contrast the head of the Christ at Milan, Leonardo's conception"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Mona Lisa"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Mona Lisa's portrait"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "Mona Lisa was exceedingly beautiful, and while Leonardo was painting her portrait"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Mona Lisa's portrait"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "while Leonardo was painting her portrait"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Contrast the head of the Christ at Milan, Leonardo's conception of divinity expressed in perfect humanity."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Mona Lisa"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Mona Lisa's portrait"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "Mona Lisa was exceedingly beautiful, and while Leonardo was painting her portrait, he took the precaution of keeping some one constantly near her to sing or play on instruments, or to jest and otherwise amuse her."
+    }
+  ]
+}

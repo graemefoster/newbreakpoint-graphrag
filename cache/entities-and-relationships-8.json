@@ -1,0 +1,455 @@
+{
+  "Entities": [
+    {
+      "Reason": "He is the main subject of the text, involved in various artistic endeavors.",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "Leonardo was resident in Milan in 1487 and it is also the location for some of his work.",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "Leonardo was possibly in service of the Sultan of Egypt between 1483 and 1487.",
+      "Type": "INSTITUTION",
+      "Name": "Sultan of Egypt"
+    },
+    {
+      "Reason": "Leonardo might have traveled in Armenia as part of his service to the Sultan.",
+      "Type": "LOCATION",
+      "Name": "Armenia"
+    },
+    {
+      "Reason": "Leonardo might have traveled in the East as part of his service to the Sultan.",
+      "Type": "LOCATION",
+      "Name": "East"
+    },
+    {
+      "Reason": "Leonardo served as a general artificer to Ludovico while in Milan.",
+      "Type": "INSTITUTION",
+      "Name": "Ludovico"
+    },
+    {
+      "Reason": "Leonardo made designs for the cupola of the Milan Cathedral.",
+      "Type": "LOCATION",
+      "Name": "Milan Cathedral"
+    },
+    {
+      "Reason": "Leonardo constructed the scenery for 'Il Paradiso' written by Bernardo Bellincioni.",
+      "Type": "ARTWORK",
+      "Name": "Il Paradiso"
+    },
+    {
+      "Reason": "He wrote 'Il Paradiso'.",
+      "Type": "PERSON",
+      "Name": "Bernardo Bellincioni"
+    },
+    {
+      "Reason": "His marriage to Isabella of Aragon was the occasion for 'Il Paradiso'.",
+      "Type": "PERSON",
+      "Name": "Gian Galeazzo"
+    },
+    {
+      "Reason": "Her marriage to Gian Galeazzo was the occasion for 'Il Paradiso'.",
+      "Type": "PERSON",
+      "Name": "Isabella of Aragon"
+    },
+    {
+      "Reason": "Leonardo began his 'Treatise on Painting' around 1489-1490.",
+      "Type": "ARTWORK",
+      "Name": "Treatise on Painting"
+    },
+    {
+      "Reason": "Leonardo worked on this statue, which was destroyed in 1500.",
+      "Type": "ARTWORK",
+      "Name": "Colossal equestrian statue of Francesco Sforza"
+    },
+    {
+      "Reason": "The defeat of Ludovico in the Battle of Novara led to the occupation of Milan and destruction of the statue.",
+      "Type": "HISTORICAL_EVENT",
+      "Name": "Battle of Novara"
+    },
+    {
+      "Reason": "A copy of 'The Last Supper' by Leonardo is described.",
+      "Type": "ARTWORK",
+      "Name": "The Last Supper"
+    },
+    {
+      "Reason": "'The Virgin of the Rocks' is located in the National Gallery.",
+      "Type": "INSTITUTION",
+      "Name": "National Gallery"
+    },
+    {
+      "Reason": "'Virgin of the Rocks' by Leonardo is located in the National Gallery.",
+      "Type": "ARTWORK",
+      "Name": "Virgin of the Rocks"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Sultan of Egypt"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "he spent those years in the service of the Sultan of Egypt"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Armenia"
+      },
+      "Relationship": "VISITED",
+      "Reason": "travelling in Armenia"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "East"
+      },
+      "Relationship": "VISITED",
+      "Reason": "travelling in ... the East as his engineer"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Ludovico"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "in 1487 he was again resident in Milan as general artificer ... to Ludovico"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan Cathedral"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "the designs he made for the cupola of the cathedral at Milan"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Il Paradiso"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "the scenery he constructed for 'Il Paradiso'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Bernardo Bellincioni"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Il Paradiso"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "which was written by Bernardo Bellincioni"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Gian Galeazzo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Isabella of Aragon"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "the marriage of Gian Galeazzo with Isabella of Aragon"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Treatise on Painting"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "he began his celebrated 'Treatise on Painting'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Colossal equestrian statue of Francesco Sforza"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "recommenced work on the colossal equestrian statue of Francesco Sforza"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "HISTORICAL_EVENT",
+        "Name": "Battle of Novara"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Colossal equestrian statue of Francesco Sforza"
+      },
+      "Relationship": "DESTROYED",
+      "Reason": "destroyed by the French bowmen in April 1500, on their occupation of Milan after the defeat of Ludovico at the battle of Novara"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Copy of The Last Supper"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "This copy is usually ascribed to Marco d'Oggiono, but some critics claim that it is by Gianpetrino"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "National Gallery"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "'Virgin of the Rocks' (Plate III.), now in the National Gallery"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Sultan of Egypt"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "Leonardo spent those years in the service of the Sultan of Egypt."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Armenia"
+      },
+      "Relationship": "VISITED",
+      "Reason": "Leonardo is mentioned as traveling in Armenia."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "East"
+      },
+      "Relationship": "VISITED",
+      "Reason": "Leonardo is mentioned as traveling in the East."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Ludovico"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "In 1487 he was again resident in Milan as general artificer to Ludovico."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan Cathedral"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Among his various activities... must be mentioned the designs he made for the cupola of the cathedral at Milan."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Il Paradiso"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "The scenery he constructed for 'Il Paradiso.'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Bernardo Bellincioni"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Il Paradiso"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "'Il Paradiso,' which was written by Bernardo Bellincioni."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Gian Galeazzo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Isabella of Aragon"
+      },
+      "Relationship": "MARRIED",
+      "Reason": "The occasion of the marriage of Gian Galeazzo with Isabella of Aragon."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Treatise on Painting"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "He began his celebrated 'Treatise on Painting.'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Colossal equestrian statue of Francesco Sforza"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Recommenced work on the colossal equestrian statue of Francesco Sforza."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "HISTORICAL_EVENT",
+        "Name": "Battle of Novara"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Colossal equestrian statue of Francesco Sforza"
+      },
+      "Relationship": "DESTROYED",
+      "Reason": "It was ruthlessly destroyed by the French bowmen... after the defeat of Ludovico at the battle of Novara."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Copy of The Last Supper"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "The Last Supper"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "This copy is usually ascribed to Marco d'Oggiono... It is the same size as the original."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "National Gallery"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Virgin of the Rocks"
+      },
+      "Relationship": "OWNED",
+      "Reason": "'Virgin of the Rocks'... now in the National Gallery."
+    }
+  ]
+}

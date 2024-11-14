@@ -1,0 +1,247 @@
+{
+  "Entities": [
+    {
+      "Reason": "central figure discussed throughout the text",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "mentioned as the father of Leonardo who legitimised him and introduced him to Andrea del Verrocchio",
+      "Type": "PERSON",
+      "Name": "Ser Piero"
+    },
+    {
+      "Reason": "mentioned as Leonardo's instructor and a key figure in his early training",
+      "Type": "PERSON",
+      "Name": "Andrea del Verrocchio"
+    },
+    {
+      "Reason": "mentioned as one of the artists Leonardo met in Verrocchio's workshop",
+      "Type": "PERSON",
+      "Name": "Botticelli"
+    },
+    {
+      "Reason": "mentioned as a fellow artist Leonardo met in Verrocchio's workshop",
+      "Type": "PERSON",
+      "Name": "Lorenzo di Credi"
+    },
+    {
+      "Reason": "mentioned as a fellow artist Leonardo might have encountered in Verrocchio's workshop",
+      "Type": "PERSON",
+      "Name": "Perugino"
+    },
+    {
+      "Reason": "mentioned for his opinion on Perugino",
+      "Type": "PERSON",
+      "Name": "Michelangelo"
+    },
+    {
+      "Reason": "mentioned as a famous painting by Leonardo",
+      "Type": "ARTWORK",
+      "Name": "Last Supper"
+    },
+    {
+      "Reason": "Leonardo was admitted into this guild in 1472",
+      "Type": "INSTITUTION",
+      "Name": "Guild of Florentine Painters"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ser Piero"
+      },
+      "Relationship": "PARENTS_OF",
+      "Reason": "Ser Piero seems to have legitimised his 'love child'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Ser Piero"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Andrea del Verrocchio"
+      },
+      "Relationship": "FRIEND",
+      "Reason": "Ser Piero took some of his drawings to Andrea del Verrocchio, an intimate friend"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Andrea del Verrocchio"
+      },
+      "Relationship": "TEACHER",
+      "Reason": "Verrocchio advised Ser Piero to send Leonardo to study under him"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Guild of Florentine Painters"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "In 1472, at the age of twenty, he was admitted into the Guild of Florentine Painters"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Botticelli"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "met Botticelli, at that moment...a jovial _habitué_ of the Poetical Supper Club"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Lorenzo di Credi"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "He also, no doubt, met Lorenzo di Credi"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Perugino"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "He also, no doubt, met Perugino"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "when he was painting his famous 'Last Supper'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Last Supper"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "he was painting in his famous 'Last Supper' the figures of eleven Apostles and one outcast"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "Guild of Florentine Painters"
+      },
+      "Relationship": "WORKED_AT",
+      "Reason": "he was admitted into the Guild of Florentine Painters"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Botticelli"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "in the workshop of that great Florentine sculptor, goldsmith, and artist he met other craftsmen, metal workers, and youthful painters, among whom was Botticelli"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Lorenzo di Credi"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "There also Leonardo came into contact with that unoriginal painter Lorenzo di Credi"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Perugino"
+      },
+      "Relationship": "INSPIRED",
+      "Reason": "He also, no doubt, met Perugino"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Andrea del Verrocchio"
+      },
+      "Relationship": "TEACHER",
+      "Reason": "Verrocchio was so astonished at the power they revealed that he advised Ser Piero to send Leonardo to study under him."
+    }
+  ]
+}

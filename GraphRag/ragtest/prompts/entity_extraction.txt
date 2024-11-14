@@ -1,0 +1,147 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [person, artwork, location, historical_event, art_movement, institution, relationship, technique]
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: an integer score between 1 to 10, indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in The primary language of the provided text is "English." as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. If you have to translate into The primary language of the provided text is "English.", just translate the descriptions, nothing else!
+
+5. When finished, output {completion_delimiter}.
+
+-Examples-
+######################
+
+Example 1:
+
+entity_types: [person, artwork, location, historical_event, art_movement, institution, relationship, technique]
+text:
+ age. The young
+Duchess, who at one time owned as many as eighty-four splendid gowns,
+refused to wear a certain dress of woven gold, which her husband had
+given her, if Cecilia Gallerani, the Sappho of her day, continued to
+wear a very similar one, which presumably had been given to her by
+Ludovico. Having discarded Cecilia, who, as her tastes did not lie in
+the direction of the Convent, was married in 1491 to Count Ludovico
+Bergamini, the Duke in 1496 became enamoured of Lucrezia Crivelli, a
+lady-in-waiting to the Duchess Beatrice.
+
+Leonardo, as court painter, perhaps painted a portrait, now lost, of
+Lucrezia, whose features are more likely to be preserved to us in the
+portrait by Ambrogio da Predis, now in the Collection of the Earl
+------------------------
+output:
+("entity"{tuple_delimiter}DUCHESS{tuple_delimiter}person{tuple_delimiter}The young Duchess who owned as many as eighty-four splendid gowns and had a conflict with Cecilia Gallerani over a dress of woven gold)
+{record_delimiter}
+("entity"{tuple_delimiter}CECILIA GALLERANI{tuple_delimiter}person{tuple_delimiter}Cecilia Gallerani, known as the Sappho of her day, who was involved in a conflict with the Duchess over a dress and was married to Count Ludovico Bergamini in 1491)
+{record_delimiter}
+("entity"{tuple_delimiter}LUDOVICO{tuple_delimiter}person{tuple_delimiter}Ludovico, who presumably gave a dress to Cecilia Gallerani and later became enamored of Lucrezia Crivelli)
+{record_delimiter}
+("entity"{tuple_delimiter}COUNT LUDOVICO BERGAMINI{tuple_delimiter}person{tuple_delimiter}Count Ludovico Bergamini, who married Cecilia Gallerani in 1491)
+{record_delimiter}
+("entity"{tuple_delimiter}LUCREZIA CRIVELLI{tuple_delimiter}person{tuple_delimiter}Lucrezia Crivelli, a lady-in-waiting to the Duchess Beatrice, who became the object of Ludovico's affection in 1496)
+{record_delimiter}
+("entity"{tuple_delimiter}LEONARDO{tuple_delimiter}person{tuple_delimiter}Leonardo da Vinci, the court painter who perhaps painted a now-lost portrait of Lucrezia Crivelli)
+{record_delimiter}
+("entity"{tuple_delimiter}AMBROGIO DA PREDIS{tuple_delimiter}person{tuple_delimiter}Ambrogio da Predis, the artist who likely preserved Lucrezia Crivelli's features in a portrait now in the Collection of the Earl)
+{record_delimiter}
+("entity"{tuple_delimiter}COLLECTION OF THE EARL{tuple_delimiter}location{tuple_delimiter}The collection where Ambrogio da Predis's portrait of Lucrezia Crivelli is currently held)
+{record_delimiter}
+("relationship"{tuple_delimiter}DUCHESS{tuple_delimiter}CECILIA GALLERANI{tuple_delimiter}The Duchess refused to wear a dress of woven gold if Cecilia Gallerani continued to wear a similar one{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}CECILIA GALLERANI{tuple_delimiter}LUDOVICO{tuple_delimiter}Cecilia Gallerani presumably received a dress from Ludovico{tuple_delimiter}6)
+{record_delimiter}
+("relationship"{tuple_delimiter}CECILIA GALLERANI{tuple_delimiter}COUNT LUDOVICO BERGAMINI{tuple_delimiter}Cecilia Gallerani married Count Ludovico Bergamini in 1491{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}LUDOVICO{tuple_delimiter}LUCREZIA CRIVELLI{tuple_delimiter}Ludovico became enamored of Lucrezia Crivelli in 1496{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}LUCREZIA CRIVELLI{tuple_delimiter}DUCHESS{tuple_delimiter}Lucrezia Crivelli was a lady-in-waiting to the Duchess Beatrice{tuple_delimiter}5)
+{record_delimiter}
+("relationship"{tuple_delimiter}LEONARDO{tuple_delimiter}LUCREZIA CRIVELLI{tuple_delimiter}Leonardo da Vinci perhaps painted a now-lost portrait of Lucrezia Crivelli{tuple_delimiter}6)
+{record_delimiter}
+("relationship"{tuple_delimiter}AMBROGIO DA PREDIS{tuple_delimiter}LUCREZIA CRIVELLI{tuple_delimiter}Ambrogio da Predis likely preserved Lucrezia Crivelli's features in a portrait{tuple_delimiter}6)
+{record_delimiter}
+("relationship"{tuple_delimiter}AMBROGIO DA PREDIS{tuple_delimiter}COLLECTION OF THE EARL{tuple_delimiter}Ambrogio da Predis's portrait of Lucrezia Crivelli is now in the Collection of the Earl{tuple_delimiter}5)
+{completion_delimiter}
+#############################
+
+
+Example 2:
+
+entity_types: [person, artwork, location, historical_event, art_movement, institution, relationship, technique]
+text:
+.
+
+Leonardo has succeeded in producing the effect of the _coup de
+théâtre_ at the moment when Jesus said "One of you shall betray
+me." Instantly the various apostles realise that there is a traitor
+among their number, and show by their different gestures their
+different passions, and reveal their different temperaments. On the
+left of Christ is St. John who is overcome with grief and is
+interrogated by the impetuous Peter, near whom is seated Judas
+Iscariot who, while affecting the calm of innocence, is quite unable
+to conceal his inner feelings; he instinctively clasps the money-bag
+and in so doing upsets the salt-cellar.
+
+It will be remembered that the Prior of the Convent complained to
+Ludovico Sforza, Duke of Milan, that Leonardo was taking too long to
+paint the fresco and was causing the Convent considerable
+inconvenience
+------------------------
+output:
+("entity"{tuple_delimiter}LEONARDO{tuple_delimiter}PERSON{tuple_delimiter}Leonardo da Vinci, the renowned Italian artist, who painted the famous fresco "The Last Supper")
+{record_delimiter}
+("entity"{tuple_delimiter}THE LAST SUPPER{tuple_delimiter}ARTWORK{tuple_delimiter}A famous fresco by Leonardo da Vinci depicting the moment Jesus announces that one of his apostles will betray him)
+{record_delimiter}
+("entity"{tuple_delimiter}JESUS{tuple_delimiter}PERSON{tuple_delimiter}Central figure in "The Last Supper" who announces the betrayal)
+{record_delimiter}
+("entity"{tuple_delimiter}ST. JOHN{tuple_delimiter}PERSON{tuple_delimiter}Apostle depicted in "The Last Supper" who is overcome with grief)
+{record_delimiter}
+("entity"{tuple_delimiter}PETER{tuple_delimiter}PERSON{tuple_delimiter}Apostle depicted in "The Last Supper" who is impetuous and interrogates St. John)
+{record_delimiter}
+("entity"{tuple_delimiter}JUDAS ISCARIOT{tuple_delimiter}PERSON{tuple_delimiter}Apostle depicted in "The Last Supper" who betrays Jesus and is shown clasping a money-bag)
+{record_delimiter}
+("entity"{tuple_delimiter}LUDOVICO SFORZA{tuple_delimiter}PERSON{tuple_delimiter}Duke of Milan who was approached by the Prior of the Convent regarding the delay in the painting of "The Last Supper")
+{record_delimiter}
+("entity"{tuple_delimiter}DUKE OF MILAN{tuple_delimiter}TITLE{tuple_delimiter}Title held by Ludovico Sforza, who was involved in the situation regarding the painting of "The Last Supper")
+{record_delimiter}
+("entity"{tuple_delimiter}CONVENT{tuple_delimiter}INSTITUTION{tuple_delimiter}The religious institution where "The Last Supper" was being painted)
+{record_delimiter}
+("relationship"{tuple_delimiter}LEONARDO{tuple_delimiter}THE LAST SUPPER{tuple_delimiter}Leonardo da Vinci is the artist who painted "The Last Supper"{tuple_delimiter}10)
+{record_delimiter}
+("relationship"{tuple_delimiter}JESUS{tuple_delimiter}THE LAST SUPPER{tuple_delimiter}Jesus is the central figure in "The Last Supper" painting{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}ST. JOHN{tuple_delimiter}THE LAST SUPPER{tuple_delimiter}St. John is one of the apostles depicted in "The Last Supper"{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}PETER{tuple_delimiter}THE LAST SUPPER{tuple_delimiter}Peter is one of the apostles depicted in "The Last Supper"{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}JUDAS ISCARIOT{tuple_delimiter}THE LAST SUPPER{tuple_delimiter}Judas Iscariot is the apostle who betrays Jesus, depicted in "The Last Supper"{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}LUDOVICO SFORZA{tuple_delimiter}CONVENT{tuple_delimiter}Ludovico Sforza was approached by the Prior of the Convent regarding the delay in the painting of "The Last Supper"{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}DUKE OF MILAN{tuple_delimiter}LUDOVICO SFORZA{tuple_delimiter}Ludovico Sforza held the title of Duke of Milan{tuple_delimiter}10)
+{completion_delimiter}
+#############################
+
+
+
+-Real Data-
+######################
+entity_types: [person, artwork, location, historical_event, art_movement, institution, relationship, technique]
+text: {input_text}
+######################
+output:

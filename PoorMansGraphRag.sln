@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoorMansGraphRag", "PoorMansGraphRag\PoorMansGraphRag.csproj", "{982071A2-1B18-419D-842F-ED5FA7F82A4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{60076548-9975-4082-B7FC-55F8301CDB68}"
+	ProjectSection(SolutionItems) = preProject
+		alice-in-wonderland.txt = alice-in-wonderland.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoorMansGraphRagQuery", "PoorMansGraphRagQuery\PoorMansGraphRagQuery.csproj", "{198A429A-F15F-4857-8F3A-7021BCA6772D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{982071A2-1B18-419D-842F-ED5FA7F82A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982071A2-1B18-419D-842F-ED5FA7F82A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982071A2-1B18-419D-842F-ED5FA7F82A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982071A2-1B18-419D-842F-ED5FA7F82A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198A429A-F15F-4857-8F3A-7021BCA6772D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198A429A-F15F-4857-8F3A-7021BCA6772D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198A429A-F15F-4857-8F3A-7021BCA6772D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198A429A-F15F-4857-8F3A-7021BCA6772D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

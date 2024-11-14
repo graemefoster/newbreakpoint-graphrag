@@ -1,0 +1,148 @@
+{
+  "Entities": [
+    {
+      "Reason": "The text describes various contributions, maxims, and influence of Leonardo.",
+      "Type": "PERSON",
+      "Name": "Leonardo"
+    },
+    {
+      "Reason": "Leonardo's influence was strongly felt in Milan.",
+      "Type": "LOCATION",
+      "Name": "Milan"
+    },
+    {
+      "Reason": "Leonardo founded a School of painting in Milan.",
+      "Type": "INSTITUTION",
+      "Name": "School of painting"
+    },
+    {
+      "Reason": "Boltraffio was mentioned as one of Leonardo's followers and painters.",
+      "Type": "PERSON",
+      "Name": "Boltraffio"
+    },
+    {
+      "Reason": "The 'Presumed Portrait of Lucrezia Crivelli' is mentioned as a work possibly painted by Boltraffio or Leonardo.",
+      "Type": "PERSON",
+      "Name": "Lucrezia Crivelli"
+    },
+    {
+      "Reason": "The 'Presumed Portrait of Lucrezia Crivelli' is mentioned as an artwork connected to Leonardo and Boltraffio.",
+      "Type": "ARTWORK",
+      "Name": "Presumed Portrait of Lucrezia Crivelli"
+    }
+  ],
+  "Relationships": [
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "LOCATION",
+        "Name": "Milan"
+      },
+      "Relationship": "LIVED_IN",
+      "Reason": "Leonardo spent many of the best years of his life in Milan."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "INSTITUTION",
+        "Name": "School of painting"
+      },
+      "Relationship": "FOUNDED",
+      "Reason": "Leonardo founded a School of painting in Milan."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Boltraffio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "Boltraffio was influenced by Leonardo."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Presumed Portrait of Lucrezia Crivelli"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "The 'Presumed Portrait of Lucrezia Crivelli' is officially attributed to Leonardo."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Boltraffio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Presumed Portrait of Lucrezia Crivelli"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Boltraffio perhaps painted the 'Presumed Portrait of Lucrezia Crivelli.'"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Boltraffio"
+      },
+      "Relationship": "INFLUENCED",
+      "Reason": "The influence of Leonardo was strongly felt in Milan, where he spent so many of the best years of his life and founded a School of painting... His strong personal character and the fascination of his genius enthralled his followers, who were satisfied to repeat his types... Among this group of painters may be mentioned Boltraffio"
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Leonardo"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Presumed Portrait of Lucrezia Crivelli"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Boltraffio... perhaps painted the 'Presumed Portrait of Lucrezia Crivelli' (Plate VII.), which is officially attributed in the Louvre to the great master himself."
+    },
+    {
+      "From": {
+        "Reason": null,
+        "Type": "PERSON",
+        "Name": "Boltraffio"
+      },
+      "To": {
+        "Reason": null,
+        "Type": "ARTWORK",
+        "Name": "Presumed Portrait of Lucrezia Crivelli"
+      },
+      "Relationship": "PAINTED",
+      "Reason": "Boltraffio, who perhaps painted the 'Presumed Portrait of Lucrezia Crivelli' (Plate VII.)"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+python -m graphrag.query \                         
+--root ./ \
+--method local \
+"What paintings did Leonardo make?"
+
+Leonardo da Vinci, one of the most celebrated artists of the Renaissance, created numerous masterpieces that have left an indelible mark on the history of art. His works are renowned for their exquisite detail, innovative techniques, and profound impact on the art world. Below is a summary of some of his most notable paintings:
+
+### Early Works
+Leonardo's early works include "The Annunciation," a painting attributed to him and housed in the Uffizi Gallery in Florence [Data: Entities (12); Relationships (6, 83)]. Another early piece is "A Wide View over a Plain," his earliest dated work from January 1473, which is also in the Uffizi [Data: Entities (59); Relationships (157, 86)].
+
+### Iconic Masterpieces
+Among Leonardo's most iconic masterpieces is "The Last Supper," painted between 1496 and 1498 in the refectory of St. Maria delle Grazie in Milan [Data: Entities (54); Relationships (103, 170)]. This work is celebrated for its composition and the emotional depth of its figures. Another renowned painting is the "Mona Lisa," also known as "La Gioconda," which is housed in the Louvre Museum in Paris. This portrait is famous for its enigmatic expression and masterful use of sfumato [Data: Entities (54); Relationships (78)].
+
+### Other Significant Works
+Leonardo also created "The Virgin of the Rocks," with two versions existing: one in the Louvre and another in the National Gallery, London. These paintings are noted for their intricate details and the use of chiaroscuro [Data: Sources (0)]. Additionally, "The Adoration of the Magi," an unfinished commission, showcases Leonardo's early exploration of complex compositions [Data: Relationships (163)].
+
+### Portraits and Religious Themes
+Leonardo's skill in portraiture is evident in works like the "Presumed Portrait of Lucrezia Crivelli," housed in the Louvre, and the chalk portrait of Isabella d'Este [Data: Entities (24); Relationships (132, 175)]. His religious-themed paintings include "Madonna, the Infant Christ, and Saint Anne," also in the Louvre, and "The Virgin and Child with St. Anne and St. John" [Data: Entities (24); Relationships (183, 169)].
+
+### Unfinished and Lost Works
+Leonardo's ambitious project, the "Battle of Anghiari," commissioned by the Signoria, remains one of his most celebrated unfinished masterpieces. Although the work was never completed, it is remembered for its dynamic composition and innovative techniques [Data: Relationships (148)].
+
+Leonardo da Vinci's body of work reflects his unparalleled skill and innovative approach to art. His paintings continue to be studied and admired for their technical mastery and profound impact on the Renaissance and beyond.
+
